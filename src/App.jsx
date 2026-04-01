@@ -168,7 +168,7 @@ const data = {
 
   cv: {
     en: [
-      { school: "University of Chinese Academy of Social Sciences", major: "BA Sociology", period: "2022-09 ~ 2027" },
+      { school: "University of Chinese Academy of Social Sciences", major: "BA Sociology", period: "2022 ~ 2027" },
       { school: "University of California, Berkeley", major: "BISP Extension Student", period: "2024 Spring" }
     ],
     cn: [
@@ -305,7 +305,7 @@ function PageBlog({ lang }) {
     <div style={{ maxWidth: 850 }}>
       <section style={{ marginBottom: "4rem" }}>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>{lang === "cn" ? "思考" : "Thinking"}</h3>
-        <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "'尚未定论的问题、正在形成的想法——我再探索中的问题与研究。'" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
+        <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "'尚未定论的、正在形成的——我持续探索中的问题与研究想法。'" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
         {data.blog.thinking.map(t => (
           <div key={t.id} style={{ marginBottom: "2rem", padding: "1.2rem", border: theme.border, background: "rgba(255,255,255,0.3)" }}>
             <h5 style={{ fontFamily: theme.fontSerif, fontSize: "1.2rem", margin: "0 0 0.5rem" }}>{lang === "cn" ? t.titleCN : t.title}</h5>
@@ -396,7 +396,7 @@ export default function App() {
                   <p key={i}><strong>{item.school}</strong> · {item.major} ({item.period})</p>
                 ))}
                 <p style={{ color: theme.colorDetail, marginTop: "2rem", fontStyle: "italic" }}>
-                  {lang === "cn" ? "完整学术作品集与简历请通过邮件索取。" : "Full Academic Portfolio and CV available via email."}
+                  {lang === "cn" ? "如需完整学术作品集及简历，烦请通过邮件联系获取。" : "Full Academic Portfolio and CV available via email."}
                 </p>
               </div>
             )}
