@@ -32,52 +32,45 @@ const data = {
     items: [
       {
         id: 1,
-        title: "Gendered Power Relations in Linguistic Practice: An Analysis of “Gender Reversal” Short Videos",
-        titleCN: "语言实践中的性别权力关系 ——基于“性别倒转”类短视频的考察",
-        status: "First Author | Project Thesis (Excellent)",
-        statusCN: "第一作者｜项目论文（推荐优秀）",
+        title: "Gendered Power Relations in Linguistic Practice: An Analysis of “Gender Reversal” Short Videos | 语言实践中的性别权力关系 ——基于“性别倒转”类短视频的考察",
+        status: "First Author | Project Thesis (Excellent) | 第一作者｜项目论文（推荐优秀）",
         abstract: "This research examines the emergence of “gender reversal” short videos on social media, combining critical discourse analysis with semi-structure interviews, drawing on Bourdieu’s practice theory and framework of symbolic violence, Foucault’s discourse–power perspective, and Butler’s theory of gender performativity. It explores how audiences engage in the negotiation of gender discourse through viewing, interpreting, and reproducing “gender reversal” content. The findings show that “gender reversal” symbolically inverts social norms to render the latent and often hidden forms of everyday gendered violence visible. By producing “counter discourses,” these videos provide female audiences with emotional resonance and a sense of legitimacy for action, encouraging them to express dissatisfaction, voice objections, and challenge existing gender norms in daily interactions. However, the political efficacy of such narratives is constrained by the intrinsic tension of ironic structures and the limitations of the binary gender framework, restricting their capacity to fundamentally subvert gender hierarchies. The reaserch argues that “gender reversal” functions not only as a strategic practice resisting patriarchal discourse but also as a critical lens through which the complexities of gendered power relations in the digital era can be examined. It offers an important window into the interplay among media, affective politics, and social structures, revealing how symbols, language, and performance mediate the negotiation of identity and power.",
-        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语”的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演揭示了数字时代性别权力关系的复杂性。",
+        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语”的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境，使得其在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
         keywords: "gender language; gender discourse; gender reversal; discursive power",
         keywordsCN: "性别语言；性别话语；性别倒转；话语权力"
       },
       {
         id: 2,
-        title: "Entangled Lives: Time, Body, and Labor Strategies of Female Textile Workers",
-        titleCN: "丝线缠绕的生命：纺织女工的时空、身体与劳动策略——基于浙苏两村的田野调查",
-        status: "Sole Author | Fieldwork Report (2025)",
-        statusCN: "独立作者｜田野调研报告（2025）",
+        title: "Entangled Lives: Time, Body, and Labor Strategies of Female Textile Workers | 丝线缠绕的生命：纺织女工的时空、身体与劳动策略——基于浙苏两村的田野调查",
+        status: "Sole Author | Fieldwork Report (2025) | 独立作者｜田野调研报告（2025）",
         abstract: "This study is based on fieldwork conducted among female textile workers in Village Y (Zhejiang) and Village K (Jiangsu), examining how local industrial structures shape their temporal experiences, bodily conditions, and labor strategies in the process of rural industrialization. The findings show that the “home-factory integration” model in Village Y merges production and everyday life, while in Village K labor practices move between public and private, collective and individual domains. Despite these differences, women in both contexts face the dual burden of productive and reproductive labor, leaving lasting imprints on their bodies. The study argues that female workers are not passive subjects; rather, through diverse labor strategies and life narratives, they actively “weave” together industrial logic, family responsibilities, and personal experience, producing alternative forms of modernity.",
         abstractCN: "本文基于对浙江Y村与江苏K村两地女性纺织工人的田野调查，探讨了乡镇工业化进程中，不同地方性产业结构如何塑造纺织女工的时空、身体与劳动策略。研究发现，Y村的“家厂合一”模式将生产与生活完全融合；K村女工的劳动经验则在公共与私人、集体与个体之间流转。尽管路径各异，她们都承受着生产与家庭的“双重再生产”压力，并在身体上留下了深刻的劳动印记。文章最终指出，女工并非被动的承受者，她们通过多样的劳动策略与生命叙事，将工业逻辑、家庭责任与个人体验交织在一起，主动“编织”出一种多层次、另类的现代性。",
         keywords: "textile industry; female workers; gender and labor; rural industrialization",
         keywordsCN: "纺织业；女性工人；性别与劳动；农村工业化",
-        extra: {
-          cn: "田野调查经验：连续三年赴浙江Y村与江苏K村开展田野调查。相关论文包括《卖掉织机之后》《浙北“两头婚”的实践形式与成因探讨》。",
+        fieldwork: {
+          en: "Fieldwork Experience: Conducted ethnographic fieldwork over three consecutive years in Village Y (Zhejiang) and Village K (Jiangsu), with a cumulative duration of over one month. Independently completed more than 30 semi-structured interviews and produced three research reports. Related works: 'After Selling the Looms' and 'Exploring Two-sided Marriage'.",
+          cn: "田野调查经验：连续三年赴浙江Y村与江苏K村开展田野调查，累计调研逾1个月，独立完成30余次半结构式访谈，整理约50万字逐字稿，独立撰写3篇调研报告。相关论文包括《卖掉织机之后：浙北家庭工业发展中的性别分工变迁》《浙北“两头婚”的实践形式与成因探讨》。",
           link: "http://www.cass.cn/keyandongtai/guoqingdiaoyan/202508/t20250815_5910869.shtml"
         }
       },
       {
         id: 3,
-        title: "Gender Attitudes and Upward Intergenerational Relations: Evidence from CFPS 2020",
-        titleCN: "性别观念对上行式代际关系的影响——基于CFPS2020的分析",
-        status: "Sole Author | Course Paper (2025)",
-        statusCN: "独立作者｜课程论文（2025）",
+        title: "Gender Attitudes and Upward Intergenerational Relations | 性别观念对上行式代际关系的影响——基于CFPS2020的分析",
+        status: "Sole Author | Course Paper (2025) | 独立作者｜课程论文（2025）",
         abstract: "Using CFPS 2020 data and generalized ordered logit models, this study reveals that moderately traditional gender attitudes are associated with higher intimacy, while extreme views negatively affect closeness. Gender differences are prominent in relationships with mothers.",
-        abstractCN: "本文旨在探讨个体性别观念对上行式代际关系的影响。基于CFPS2020数据，采用广义有序Logit模型。实证表明性别观念对代际关系的影响呈现显著的非线性特征：较为保守的性别观念与较高的亲密度显著相关，而极端保守或极端的平等观念则可能产生负面影响。",
-        keywords: "sociology of family; intergenerational relations; gender attitudes",
-        keywordsCN: "家庭社会学；代际关系；性别观念"
+        abstractCN: "本文旨在探讨个体性别观念对上行式代际关系，即成年子女与父母之间关系亲密度的影响。基于CFPS2020数据，本文采用广义有序Logit模型进行实证分析。实证结果表明，性别观念对代际关系的影响呈现显著的非线性特征：较为保守的性别观念与较高的亲密度显著相关，而极端保守或极端平等的性别观念则可能对亲密度产生负面影响。",
+        keywords: "sociology of family; intergenerational relations; gender attitudes; generalized ordered logit model",
+        keywordsCN: "家庭社会学；代际关系；性别观念；广义有序逻辑模型"
       },
       {
         id: 4,
-        title: "Labor Participation, Marital Stability, and Family Structure: Evidence from CFPS",
-        titleCN: "劳动参与、婚姻稳定与家庭人口结构 ——基于CFPS的实证研究",
-        status: "Third Author | Published (2025)",
-        statusCN: "第三作者｜项目论文（发表于2025）",
-        abstract: "This study uses CFPS data to estimate the effects of absolute and relative labor participation time on individual marital satisfaction, examining mechanisms like domestic labor and family division of labor norms.",
-        abstractCN: "运用Logit及面板模型，系统估计了劳动参与时间对个体婚姻满意度的影响方向和程度。收录于《人文社会科学青年学子优秀论文选（2024）》ISBN:978-7-5228-4278-3。",
+        title: "Labor Participation, Marital Stability, and Family Structure: Evidence from CFPS | 劳动参与、婚姻稳定与家庭人口结构 ——基于CFPS的实证研究",
+        status: "Third Author | Published (2025) | 第三作者｜项目论文（发表于2025）",
+        abstract: "This study uses CFPS data (2014, 2018, 2020) and analyzed using Logit (Probit) and panel Logit models to systematically estimate the effects of absolute and relative labor participation time on individual marital satisfaction. Mechanisms include 'norms of family division of labor' and 'domestic work'.",
+        abstractCN: "本文使用2014、2018和2020年CFPS数据，运用Logit、Ordered Logit及面板模型，系统估计了劳动参与时间对于个体婚姻满意度的影响。收录于《人文社会科学青年学子优秀论文选（2024）》ISBN:978-7-5228-4278-3。",
         link: "https://xianxiao.ssap.com.cn/member/home/member_id/436549.html",
-        keywords: "labor participation; marital satisfaction; domestic labor",
-        keywordsCN: "劳动参与；婚姻满意度；家务劳动"
+        keywords: "labor participation; marital satisfaction; domestic labor; intergenerational childcare",
+        keywordsCN: "劳动参与；婚姻满意度；家务劳动；隔代抚养"
       }
     ]
   },
@@ -87,27 +80,31 @@ const data = {
       id: 1,
       title: "Public Sociology Practice (Independent Platform) | 公共社会学实践（个人账号）",
       year: "2024 – Present",
+      desc: "Independently run a public knowledge dissemination account “Xiaoze” (Xiaohongshu ID: 373619623), focusing on sociology and gender-related topics, and exploring ways to translate academic theories into public-facing expressions.",
       descCN: "独立运营公共知识传播账号“小沢”（小红书ID：373619623），以社会学与性别议题为核心，探索学术理论的公众化表达路径。",
       link: "https://xhslink.com/m/9ZuPKWMYuGs"
     },
     {
       id: 2,
-      title: "Peer Health Education Society, UCASS | 中国社会科学院大学青春健康同伴社社长",
+      title: "President, Peer Health Education Society, UCASS | 中国社会科学院大学青春健康同伴社社长",
       year: "2025 – Present",
-      descCN: "负责社团整体运营，主导以“性与生殖健康”“性别平等”为主题的参与式工作坊，推动校园性别友好讨论空间的形成。",
+      desc: "Responsible for the overall management and recruitment training of the organization. Promote gender-friendly public discussion spaces on campus through peer education and interactive seminars. Planned and led participatory workshops on SRHR and gender equality.",
+      descCN: "负责社团整体运营与招新培训，通过同伴教育与互动式研讨，在校园内推动性别友好的公共讨论空间。策划并主导以“性与生殖健康”“性别平等”为主题的参与式工作坊与同伴教育活动。",
       link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyNDU4OTY1MQ=="
     },
     {
       id: 3,
-      title: "Beijing Love Queer Cinema Week (LQCW) | 北京爱酷电影周志愿者",
+      title: "Volunteer, Beijing Love Queer Cinema Week (LQCW) | 北京爱酷电影周志愿者",
       year: "Nov 2025",
-      descCN: "参与第18届影展志愿服务工作，负责现场执行与观众接待，支持酷儿文化公共空间的实践与运作。"
+      desc: "Participated in volunteer work for the 18th film festival, responsible for on-site operations and audience services, contributing to the practice and maintenance of queer cultural public spaces.",
+      descCN: "参与第18届影展志愿服务工作，负责现场执行与观众接待，支持影展活动的顺利开展，并参与酷儿文化公共空间的实践与运作。"
     },
     {
       id: 4,
-      title: "Student Journal 'Social Research and Discourse' | 学生刊物《社研社语》编辑部负责人",
+      title: "Editor-in-Chief, Student Journal 'Social Research and Discourse' | 学生刊物《社研社语》编辑部负责人",
       year: "2024 – Present",
-      descCN: "统筹刊物出版全流程，主导选题策划与稿件审核，建立标准化稿件审核与质量控制机制。",
+      desc: "Oversaw the entire publication process of the journal, including topic selection, manuscript review, and coordination among authors, reviewers, and the editorial team at UCASS.",
+      descCN: "统筹刊物出版全流程，主导选题策划与稿件审核，协调作者、审稿人与编辑团队之间的沟通，建立标准化稿件审核与质量控制机制。",
       link: "https://mp.weixin.qq.com/s/lI2_d93PfVSaIfRtcGybAw"
     }
   ],
@@ -117,66 +114,62 @@ const data = {
       {
         id: 1,
         title: "“ta” as a Gendered / Gender-Neutral Signifier | 关于“ta”作为性别中立代词的思考",
-        contentCN: "中文口语无法听出性别，但在书写中标记。与“they”或“hen”不同，中文没有广泛稳定的中立代词。我想理解人们如何使用它，以及它能否承载政治与情感重量。"
+        en: `Chinese is a language where gender is not audible in speech but marked in writing. “Ta” (他/她/它) has been used in matchmaking ads (“come find your ta”) and by queer communities as a gender-neutral marker. Yet these uses point to very different claims on the same character. Unlike English “they” or Swedish “hen,” Chinese does not offer a widely stabilized gender-neutral pronoun beyond “ta” or “he/she.” I am interested in how people use it, what meanings they attach to it, and whether it can carry the kinds of political and affective weight we ask it to bear.`,
+        cn: `中文是一种在口语中无法直接听出性别，但在书写中明确标记性别的语言。“ta”（他/她/它）既被用在相亲广告中（“来找你的那个ta”），也被酷儿社群用作性别中立的表达，但这两种用法其实指向的是对同一个字的不同主张。与英语中的“they”或瑞典语中的“hen”不同，中文并没有一个被广泛稳定接受的性别中立代词，除了“ta”或“他/她”。我想理解人们如何使用它、它被赋予了什么意义，以及它是否能够承载我们期待它所承载的政治与情感重量。`
       },
       {
         id: 2,
-        title: "Muscles as Gender Signifiers | 肌肉作为性别符号",
-        contentCN: "男性展示肌肉几乎不需要额外解释。但当女性进行力量训练并展示肌肉时，这种身体会被如何理解？威胁、酷还是另一种被规训的身体？"
+        title: "Muscles as Gender Signifiers | 作为性别符码的肌肉身体",
+        en: `Muscularity in men is often read as masculinity—it requires little explanation. But when women engage in strength training and develop visible muscle, what is it read as? Threatening? Cool? Transgressive? Or another form of disciplined, regulated body? I am still unsure whether this belongs to the sociology of the body, sports sociology, or perhaps both.`,
+        cn: `男性展示肌肉通常会被直接读作“男性气质”，几乎不需要额外解释。但当女性进行力量训练并展示肌肉时，这种身体会被如何理解？是威胁？是“很酷”？是越轨？还是另一种被规训的身体？我还没有完全确定，这个问题究竟属于身体社会学、运动社会学，还是两者的交叉。`
       },
       {
         id: 3,
         title: "Women Smoking and Gendered Norms | 女性吸烟与性别规范",
-        contentCN: "为什么女性吸烟仍然常常被视为一种“越轨行为”？这种观念背后，运作的是怎样的性别规范与社会期待？"
+        en: `Why is women’s smoking still widely perceived as deviant? What kinds of gendered norms and expectations are at work in producing this perception?`,
+        cn: `为什么女性吸烟仍然常常被视为一种“越轨行为”？这种观念背后，运作的是怎样的性别规范与社会期待？`
       }
     ],
     essays: [
       {
         id: 101,
-        title: "我获得酷儿性的一些时刻【2025.12】",
-        content: `2024冬天最低落的时候看了《正常人》剧集，读了英文原著后还是非常喜爱，尤其爱结尾这一段落：\n\n“She closes her eyes. He probably won’t come back, she thinks. Or he will, differently. What they have now they can never have back again. But for her the pain of loneliness will be nothing to the pain that she used to feel, of being unworthy. He brought her goodness like a gift and now it belongs to her. Meanwhile his life opens out before him in all directions at once. They’ve done a lot of good for each other. Really, she thinks, really. People can really change one another. You should go, she says. I’ll always be here. You know that.”\n\n今年冬天最低落的时候又开始读萨利鲁尼，先是很顺畅地读完了《美丽的世界，你在哪里》，过了一段时间才开始读她名声最大的《聊天记录》。鲁尼和《聊天记录》大火的时候我在念高中... 如果说happyend告诉我们“友谊是一种非常酷儿的关系”，那么鲁尼则给了我更多关于“酷儿关系”的更具体的想象，我从她的讲述中汲取到了我的后现代性和酷儿性。在《聊天记录》里，Frances和Bobbi曾经是恋人，分手后依然彼此依赖，后又断交、复合，以一种没有被命名的方式重新联结——或者如Nick所说的，以一种“非常关系无政府主义”的方式共同生活。她们关心、依赖对方，却不试图占有。 我非常嫉妒她们之间的关系，无论我们怎么称呼，我感受到一种探索QPR/关系无政府主义的强大的吸引力，我们可以定义或不定义和人们的关系，我会在交往中获得爱与很多的瞬间，我从人群中来，又回到自己的世界。《聊天记录》的结尾我也非常喜爱：“物和人在我周围转动，在模糊复杂的体系里占据不同位置，加入我现在不知道并永远都不会知道的系统。一个由事物与概念组成的复杂网路。要明白生活你需要先经历它。你不能总是做一个分析的人。”\n\n获得酷儿性的很多时刻发生在大半夜从北京城里打车回良乡的路途中，深夜的网约车上经常蹦出很多酷儿们的新思考，在许多conversations with friends中我突然发现我们都有了太多对于生活的态度的转变。某天在聊天中我突然讲道：我以前非常相信“命运”、“缘分”之类的东西，但我最近开始把它们从我的意志里剥离掉了。现在我觉得人与人的相遇就是很简单很random的事情，和人产生好感、喜欢、依恋，发生对另一个人的爱，接住爱也是很简单很random的事情。上天指派给我的唯一的事物就是我的身体，如果周遭也算的话，上天也为我指派了家庭、国籍和性别，分别定下了我的家境、教育、身处的社会和可能要遵循的规范。上天没有为我指派我的“命运”，我也不需要做上帝希望我做的事情来证明我是上帝会爱的选民。换句话说，我的酷儿性就是我可以摆脱所有我可能要遵循的规范，发展路径、性别规范、生育选择.... 任何事物对我来说都不是命定之事，我要用我的身体我的聪明勇敢去做我任何想做的事，去任何地方，结识任何人，给予并接受更多的爱、发生更多的事情，我行动，我拥有了一些联结，我播洒了一些爱，我收获了更多爱，我经过，我从一切中体会到更多的美妙。也许这是一种对于酷儿性的诠释？有评论这样告诉我，我不知道我是否对“酷儿性”进行了诠释，但也许对于这样的表达和分享，并将其命名为“酷儿性”，就是实践与诠释的过程。\n\n与酷儿伙伴们在一起的时刻，我实践、诠释、我也获得。身处酷儿社群中，我们彼此看见、拥抱、喝彩、相互联结并给予爱，在这样的瞬间中我们从个体变成被dumping into人群中的“人”，我们拥有对方，我们的酷儿性疯狂生长。2024年某日，我和伙伴们围坐在山顶的小木屋里，念着便利贴上的一句话：“thank u for being queer, thank u for being incredible u”。2025年冬天，我和伙伴们散落在城市四处，我想和大家一起复读purple小组的基本立场：“思辨的快感经常是独自的偷欢，但只有在伙伴中间我们才能成为同志”。2026对所有人一定都会是个好年:_)!`
+        title: "Moments of Queerness: Sally Rooney and 'Normal People' | 我获得酷儿性的一些时刻",
+        date: "Dec 2025",
+        content: `2024冬天最低落的时候看了《正常人》剧集，读了英文原著后还是非常喜爱，尤其爱结尾这一段落：\n\n“She closes her eyes. He probably won’t come back, she thinks. Or he will, differently. What they have now they can never have back again. But for her the pain of loneliness will be nothing to the pain that she used to feel, of being unworthy. He brought her goodness like a gift and now it belongs to her. Meanwhile his life opens out before him in all directions at once. They’ve done a lot of good for each other. Really, she thinks, really. People can really change one another. You should go, she says. I’ll always be here. You know that.”\n\n今年冬天最低落的时候又开始读萨利鲁尼，先是很顺畅地读完了《美丽的世界，你在哪里》，过了一段时间才开始读她名声最大的《聊天记录》。鲁尼和《聊天记录》大火的时候我在念高中... 鲁尼被大家喜爱的原因之一在于她的“时代性”。鲁尼以极为真诚的方式描绘她所知道的生活，那些心理描写和小小的美丽的比喻都太像从日记本里摘出来的话，她捡起了我们无数人共有的精神碎片，精巧的拼凑后展现在大家面前。如果说happyend告诉我们“友谊是一种非常酷儿的关系”，那么鲁尼则给了我更多关于“酷儿关系”的更具体的想象，我从她的讲述中汲取到了我的后现代性和酷儿性。\n\n获得酷儿性的很多时刻发生在大半夜从北京城里打车回良乡的路途中，深夜的网约车上经常蹦出很多酷儿们的新思考，在许多conversations with friends中我突然发现我们都有了太多对于生活的态度的转变。某天在聊天中我突然讲道：我以前非常相信“命运”、“缘分”之类的东西，但我最近开始把它们从我的意志里剥离掉了。现在我觉得人与人的相遇就是很简单很random的事情，和人产生好感、喜欢、依恋，发生对另一个人的爱，接住爱也是很简单很random的事情。上天指派给我的唯一的事物就是我的身体，如果周遭也算的话，上天也为我指派了家庭、国籍和性别，分别定下了我的家境、教育、身处的社会和可能要遵循的规范。上天没有为我指派我的“命运”，我也不需要做上帝希望我做的事情来证明我是上帝会爱的选民。换句话说，我的酷儿性就是我可以摆脱所有我可能要遵循的规范，发展路径、性别规范、生育选择.... 任何事物对我来说都不是命定之事，我要用我的身体我的聪明勇敢去做我任何想做的事，去任何地方，结识任何人，给予并接受更多的爱、发生更多的事情，我行动，我拥有了一些联结，我播洒了一些爱，我收获了更多爱，我经过，我从一切中体会到更多的美妙。\n\n与酷儿伙伴们在一起的时刻，我实践、诠释、我也获得。身处酷儿社群中，我们彼此看见、拥抱、喝彩、相互联结并给予爱，在这样的瞬间中我们从个体变成被dumping into人群中的“人”，我们拥有对方，我们的酷儿性疯狂生长。2024年某日，我和伙伴们围坐在山顶的小木屋里，念着便利贴上的一句话：“thank u for being queer, thank u for being incredible u”。2025年冬天，我和伙伴们散落在城市四处，我想和大家一起复读purple小组的基本立场：“思辨的快感经常是独自的偷欢，但只有在伙伴中间我们才能成为同志”。2026对所有人一定都会是个好年:_)!`
       },
       {
         id: 102,
-        title: "关于时间的思考：Chronos、Kairos、queertime",
-        content: `随机波动最新一期节目以德国作家燕妮·埃彭贝克的新书《凯罗斯》为引，简要介绍了古希腊两种对立的时间观念——chronos和kairos，随后三位主播分享了过去一年的“凯罗斯时刻”或非均质时间体验。几日前听完后仍觉不过瘾，于是写下了这篇联想与思考。\n\n### Chronos：被规训的线性时间\nChrono- 是代表时间的词根，它通常涉及：事件的顺序、持续的时长和测量的刻度。Chronos 来自希腊语 Khronos，是希腊神话中拟人化的时间，关于“我们如何量化地衡量岁月与生命”，代表线性的、可计量的流逝。资本主义继承并强化了 Chronos 的逻辑。在这套体系里，时间是一种资源，必须被有效利用；生命是一条轨道，必须按时前进——我们在既定的轨道读书、考研、就业、成家、积累，似乎每一步都有它应当发生的时刻，我们被困在线性的社会时间里，稍有停滞，便是落后；倒退或循环，则近乎失败。Chronos 是一种规训，它内化进我们对自身的批判，将我们拽进被时间之神吞噬的恐惧里——对“我还没有……”的焦虑，对间隔、休息、“今天什么都没做”的羞耻，都是 Chronos 的声音。\n\n### Kairos：充盈的瞬间\n与Chronos相对，希腊语还有另一个词：Kairos，指“确切或关键的时间”。Kairos是希腊希腊神话中的机遇之神。他双脚长有翅膀，四处奔走；但如果你足够留心，就能抓住他光秃后脑勺上垂着的那一绺长发。Kaiors不是均匀流逝的，而是“充盈的瞬间”——那些质感不同、无法被均分的时刻。正因为Kairos 是非均质的、有质地和密度的，它不能被计划，只能被遭遇。有些瞬间浓缩了无数时间，有些漫长的日子却几乎是空的。Kairos 的时间观抵抗“时间是容器”的隐喻，主张时间是事件本身，是那个当下的质地与密度。\n\n### 酷儿时间：一种生存的伦理姿态\nJack Halberstam 认为酷儿时间（queer time）是一种拒绝按照异性恋-资本主义规范排布生命的时序。异性恋规范的生命叙事以一组被赞颂的里程碑为标志——出生、童年、青春期、成年、婚姻、生育、为人父母、纪念日、退休与死亡——并要求人以"适当"的速度穿过每个阶段。Freeman 给了这套规训一个更精准的名字：“时间规范性”（chrononormativity）——即日程、日历、时区这些安排如何"看起来像是身体的事实"——我们以为朝九晚五是自然的，以为停滞是病态的，但这不过是历史上特定权力体制内化进身体的结果。\n\n### 解放时间\n如果说 chronos 是规范，kairos 是裂缝，那么酷儿时间就是把裂缝扩展成一种生活方式的伦理选择。不是偶然地逃脱线性时间，而是有意识地拒绝它，并在拒绝中建立另一套评判生命价值的标准。停滞、迂回、延宕、循环，不是失败，而是一种与时间规范性不同步的存在方式。这种不同步，正是抵抗的形状。对于我，对于大家，我想我们不要玩任何人的游戏，拒绝进入任何一套话语体系，拒绝成为任何一套宏大叙事的注脚。\n\n我拒绝活在资本主义的线性时间里。去停滞，去倒退，去打结。允许自己愚蠢，允许自己毫无产出，允许自己仅仅是作为一个肉身存在，只是享受生命和一切不存在的意义。国家通过出生登记、婚姻许可、死亡登记来定义“拥有一种生活”的含义。但在那些表格的栏位之外，在那些无法被归档的时刻里——当我们无所事事，当我们只是单纯地呼吸与爱——这没有里程碑、没有“岸”、没有证书的日子，它正是时间生命政治视野之外的生活。它正是酷儿时间。\n\n对于抵抗，对于瓦解，对于时间，不向虚无索要意义，不向未来预支当下，只在乎当下——唯有爱，以及我们身体切实的痛痒与温热——这无意义的物质性，才是唯一的永恒。`
+        title: "On Time: Chronos, Kairos, and Queer Time | 关于时间的思考：Chronos、Kairos、queertime",
+        date: "Jan 2026",
+        content: `随机波动最新一期节目以德国作家燕妮·埃彭贝克的新书《凯罗斯》为引，简要介绍了古希腊两种对立的时间观念——chronos和kairos，随后三位主播分享了过去一年的“凯罗斯时刻”或非均质时间体验。几日前听完后仍觉不过瘾，于是写下了这篇联想与思考。\n\nChronos：被规训的线性时间。Chrono- 是代表时间的词根，它通常涉及：事件的顺序、持续的时长和测量的刻度。Chronos 来自希腊语 Khronos，是希腊神话中拟人化的时间，代表线性的、可计量的流逝——钟表上的分钟、日历上的年月。资本主义继承并强化了 Chronos 的逻辑。在这套体系里，时间是一种资源，必须被有效利用；生命是一条轨道，必须按时前进——我们在既定的轨道读书、考研、就业、成家、积累，似乎每一步都有它应当发生的时刻，我们被困在线性的社会时间里，稍有停滞，便是落后；倒退或循环，则近乎失败。Chronos 是一种规训，它内化进我们对自身的批判，将我们拽进被时间之神吞噬的恐惧里——对“我还没有……”的焦虑，对间隔、休息、“今天什么都没做”的羞耻，都是 Chronos 的声音。\n\nKairos：充盈的瞬间。与Chronos相对，希腊语还有另一个词：Kairos，指“确切或关键的时间”。Kairos是希腊希腊神话中的机遇之神。他双脚长有翅膀，四处奔走；但如果你足够留心，就能抓住他光秃后脑勺上垂着的那一绺长发。Kaiors不是均匀流逝的，而是“充盈的瞬间”——那些质感不同、无法被均分的时刻。Kairos 的时间观抵抗“时间是容器”的隐喻，主张时间是事件本身，是那个当下的质地与密度。\n\n酷儿时间：一种生存的伦理姿态。Jack Halberstam 认为酷儿时间（queer time）是一种拒绝按照异性恋-资本主义规范排布生命的时序。Freeman 给了这套规训一个更精准的名字：“时间规范性”（chrononormativity）——即日程、日历、时区这些安排如何"看起来像是身体的事实"。当这种规训扩展到整个人口，就成了“时间生命政治”（chronobiopolitics）：国家通过出生登记、婚姻许可、死亡登记，定义什么叫“拥有一种生活”。停滞、迂回、延宕、循环，不是失败，而是一种与时间规范性不同步的存在方式。这种不同步，正是抵抗的形状。\n\n别把生活当作一场需要排练的演出，不要等待变厉害了才去生活。去碰撞，去遭遇，去让生命流经你——力量不是准备的结果，而是生活完美的结晶。我拒绝活在资本主义的线性时间里。去停滞，去倒退，去打结。允许自己愚蠢，允许自己毫无产出，允许自己仅仅是作为一个肉身存在，只是享受生命和一切不存在的意义。对于抵抗，对于瓦解，对于时间，不向虚无索要意义，不向未来预支当下，只在乎当下——唯有爱，以及我们身体切实的痛痒与温热——这无意义的物质性，才是唯一的永恒。`
       }
-    ]
-  },
-
-  cv: {
-    en: [
-      { school: "University of Chinese Academy of Social Sciences", major: "BA Sociology", period: "2022-09 ~ 2027" },
-      { school: "University of California, Berkeley", major: "BISP Extension Student", period: "2024 Spring" }
-    ],
-    cn: [
-      { school: "中国社会科学院大学", major: "社会学 本科", period: "2022-09 ~ 2027" },
-      { school: "加州大学伯克利分校", major: "BISP 交换生", period: "2024 春季" }
     ]
   }
 };
 
-// --- 背景组件 ---
+// --- 背景组件：增强型彩虹旗（减少粉色） ---
 function FlagBackground() {
   return (
     <div style={{ position: "fixed", inset: 0, zIndex: 0, overflow: "hidden", pointerEvents: "none", background: "#fff" }}>
       <style>{`
         @keyframes flow { 0% { transform: translate(-3%, -3%) rotate(0deg); } 50% { transform: translate(3%, 3%) rotate(1.5deg); } 100% { transform: translate(-3%, -3%) rotate(0deg); } }
       `}</style>
-      <div style={{ position: "absolute", width: "150vw", height: "60vh", top: "-10%", left: "-10%", background: "linear-gradient(180deg, rgba(228,3,3,0.22), rgba(255,140,0,0.22), rgba(255,237,0,0.2), rgba(0,128,38,0.18), rgba(0,77,255,0.18), rgba(117,7,135,0.2))", filter: "blur(60px)", animation: "flow 25s infinite ease-in-out" }} />
-      <div style={{ position: "absolute", width: "90vw", height: "100vh", right: "-15%", top: "0", background: "linear-gradient(180deg, rgba(255,244,48,0.25) 0%, rgba(255,255,255,0.4) 25%, rgba(156,89,209,0.2) 50%, rgba(0,0,0,0.15) 100%)", filter: "blur(80px)", animation: "flow 30s infinite ease-in-out reverse" }} />
-      <div style={{ position: "absolute", width: "110vw", height: "55vh", bottom: "-10%", left: "-5%", background: "linear-gradient(180deg, rgba(213,45,0,0.18) 0%, rgba(255,154,86,0.18) 25%, rgba(255,255,255,0.2) 50%, rgba(212,98,166,0.18) 75%, rgba(165,0,98,0.18) 100%)", filter: "blur(70px)", animation: "flow 28s infinite ease-in-out" }} />
+      {/* 强化彩虹渐变：红橙黄绿蓝紫 */}
+      <div style={{ position: "absolute", width: "160vw", height: "65vh", top: "-15%", left: "-10%", background: "linear-gradient(180deg, rgba(228,3,3,0.22), rgba(255,140,0,0.22), rgba(255,237,0,0.22), rgba(0,128,38,0.18), rgba(0,77,255,0.18), rgba(117,7,135,0.2))", filter: "blur(70px)", animation: "flow 25s infinite ease-in-out" }} />
+      {/* 非二元旗：黄白紫黑 */}
+      <div style={{ position: "absolute", width: "80vw", height: "100vh", right: "-10%", top: "0", background: "linear-gradient(180deg, rgba(255,244,48,0.25) 0%, rgba(255,255,255,0.4) 30%, rgba(156,89,209,0.22) 60%, rgba(30,30,30,0.1) 100%)", filter: "blur(80px)", animation: "flow 30s infinite ease-in-out reverse" }} />
+      {/* 噪点质感 */}
       <div style={{ position: "absolute", inset: 0, opacity: 0.05, backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")` }} />
     </div>
   );
 }
 
-// --- 页面组件 ---
+// --- 页面子组件 ---
 
 function PageAbout({ lang }) {
   return (
     <section>
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-start", gap: "2rem", marginBottom: "2rem" }}>
+      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-start", gap: "2.5rem", marginBottom: "2rem" }}>
         <div style={{ flex: "1 1 500px" }}>
           <h1 style={{ fontFamily: theme.fontSerif, fontSize: "clamp(2rem, 8vw, 3rem)", fontWeight: 400, margin: "0 0 0.5rem", letterSpacing: "-0.02em" }}>
             {lang === "cn" ? data.nameCN : data.name}
@@ -212,16 +205,38 @@ function PageResearch({ lang }) {
       {data.research.items.map((r) => (
         <div key={r.id} style={{ padding: "1.5rem 0", borderBottom: theme.border, cursor: "pointer" }} onClick={() => setOpen(open === r.id ? null : r.id)}>
           <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem" }}>
-            <h4 style={{ fontFamily: theme.fontSerif, fontSize: "1.25rem", fontWeight: 400, margin: 0 }}>{lang === "cn" ? r.titleCN : r.title}</h4>
-            {r.link && <a href={r.link} target="_blank" style={{ fontSize: 12, color: "#000", textDecoration: "underline" }} onClick={e => e.stopPropagation()}>Link ↗</a>}
+            <h4 style={{ fontFamily: theme.fontSerif, fontSize: "1.25rem", fontWeight: 400, margin: 0, color: "#000" }}>{r.title}</h4>
           </div>
-          <p style={{ fontSize: 11, color: theme.colorDetail, marginTop: 8, fontWeight: 600 }}>{lang === "cn" ? r.statusCN : r.status}</p>
+          <p style={{ fontSize: 11, color: theme.colorDetail, marginTop: 8, fontWeight: 600 }}>{r.status}</p>
           {open === r.id && (
             <div style={{ marginTop: "1.2rem", animation: "fadeIn 0.3s ease" }}>
-              <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: theme.colorSub, marginBottom: "1rem" }}><strong>Abstract: </strong>{lang === "cn" ? r.abstractCN : r.abstract}</p>
+              <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: theme.colorSub, marginBottom: "1rem", textAlign: "justify" }}><strong>Abstract: </strong>{lang === "cn" ? r.abstractCN : r.abstract}</p>
               <p style={{ fontSize: "0.9rem", color: theme.colorDetail }}><strong>Keywords: </strong>{lang === "cn" ? r.keywordsCN : r.keywords}</p>
+              {r.fieldwork && (
+                <div style={{ marginTop: "1.5rem", padding: "1.2rem", background: "rgba(0,0,0,0.03)", borderRadius: "4px" }}>
+                  <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: theme.colorText }}><strong>{lang === "cn" ? "田野调查经验" : "Fieldwork Experience"}</strong></p>
+                  <p style={{ fontSize: "0.9rem", lineHeight: 1.6, color: theme.colorSub }}>{lang === "cn" ? r.fieldwork.cn : r.fieldwork.en}</p>
+                  {r.fieldwork.link && <a href={r.fieldwork.link} target="_blank" style={{ fontSize: "0.85rem", color: "#000", marginTop: "0.5rem", display: "block" }}>{lang === "cn" ? "阅读出版物 ↗" : "Read Publication ↗"}</a>}
+                </div>
+              )}
+              {r.link && <a href={r.link} target="_blank" style={{ fontSize: "0.9rem", color: "#000", textDecoration: "underline", display: "block", marginTop: "1rem" }} onClick={e => e.stopPropagation()}>{lang === "cn" ? "先晓书院个人主页 ↗" : "Xianxiao Academy Personal Page ↗"}</a>}
             </div>
           )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function PageEngagement({ lang }) {
+  return (
+    <div style={{ maxWidth: 850 }}>
+      {data.engagement.map(item => (
+        <div key={item.id} style={{ marginBottom: "2rem", borderBottom: theme.border, paddingBottom: "1.5rem" }}>
+          <h4 style={{ fontFamily: theme.fontSerif, fontSize: "1.35rem", margin: "0 0 0.5rem", fontWeight: 500 }}>{item.title}</h4>
+          <p style={{ fontSize: "11px", color: theme.colorDetail, textTransform: "uppercase", marginBottom: "0.8rem" }}>{item.year}</p>
+          <p style={{ fontSize: "1rem", lineHeight: 1.7, color: theme.colorSub, textAlign: "justify" }}>{lang === "cn" ? item.descCN : item.desc}</p>
+          {item.link && <a href={item.link} target="_blank" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline", display: "inline-block", marginTop: "0.5rem" }}>Link ↗</a>}
         </div>
       ))}
     </div>
@@ -233,23 +248,25 @@ function PageBlog({ lang }) {
   return (
     <div style={{ maxWidth: 850 }}>
       <section style={{ marginBottom: "4rem" }}>
-        <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "2rem" }}>Thinking / 思考</h3>
+        <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>Thinking / 思考</h3>
+        <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "“还没成为研究的问题，但也不是不是研究的问题。”" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
         {data.blog.thinking.map(t => (
-          <div key={t.id} style={{ marginBottom: "1.5rem" }}>
-            <h5 style={{ fontFamily: theme.fontSerif, fontSize: "1.15rem", margin: "0 0 0.5rem" }}>{lang === "cn" ? t.titleCN : t.title}</h5>
-            <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: theme.colorSub }}>{lang === "cn" ? t.contentCN : t.content}</p>
+          <div key={t.id} style={{ marginBottom: "2rem", padding: "1.2rem", border: theme.border, background: "rgba(255,255,255,0.3)" }}>
+            <h5 style={{ fontFamily: theme.fontSerif, fontSize: "1.2rem", margin: "0 0 0.5rem" }}>{t.title}</h5>
+            <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: theme.colorSub, textAlign: "justify" }}>{lang === "cn" ? t.cn : t.en}</p>
           </div>
         ))}
       </section>
       <section>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "2rem" }}>Essays / 写作</h3>
         {data.blog.essays.map(essay => (
-          <div key={essay.id} style={{ marginBottom: "1.5rem", borderBottom: "1px dashed #eee", paddingBottom: "1rem" }}>
-            <h4 onClick={() => setOpenEssay(openEssay === essay.id ? null : essay.id)} style={{ cursor: "pointer", fontFamily: theme.fontSerif, fontSize: "1.35rem", fontWeight: 400, color: openEssay === essay.id ? "#000" : "#555" }}>
+          <div key={essay.id} style={{ marginBottom: "1.5rem", borderBottom: "1px dashed #eee", paddingBottom: "1.5rem" }}>
+            <h4 onClick={() => setOpenEssay(openEssay === essay.id ? null : essay.id)} style={{ cursor: "pointer", fontFamily: theme.fontSerif, fontSize: "1.4rem", fontWeight: 400, color: openEssay === essay.id ? "#000" : "#555" }}>
               {essay.title} {openEssay === essay.id ? "↑" : "↓"}
             </h4>
+            <p style={{ fontSize: 11, color: "#999", marginTop: 4 }}>{essay.date}</p>
             {openEssay === essay.id && (
-              <div style={{ marginTop: "1.5rem", fontSize: "1.02rem", lineHeight: 1.85, color: theme.colorText, whiteSpace: "pre-wrap", animation: "fadeIn 0.4s ease", textAlign: "justify" }}>
+              <div style={{ marginTop: "1.5rem", fontSize: "1.05rem", lineHeight: 1.9, color: theme.colorText, whiteSpace: "pre-wrap", animation: "fadeIn 0.4s ease", textAlign: "justify" }}>
                 {essay.content}
               </div>
             )}
@@ -281,7 +298,7 @@ export default function App() {
           <nav style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "1.2rem" }}>
             {["about", "research", "public engagement", "blog", "cv", "contact"].map(p => (
               <button key={p} onClick={() => setPage(p === "public engagement" ? "engagement" : p)} style={{
-                background: "none", border: "none", cursor: "pointer", fontSize: "0.8rem", letterSpacing: "0.1em",
+                background: "none", border: "none", cursor: "pointer", fontSize: "0.8rem", letterSpacing: "0.08em",
                 color: (page === p || (page === "engagement" && p === "public engagement")) ? "#000" : "#888", fontWeight: (page === p || (page === "engagement" && p === "public engagement")) ? 700 : 400, textTransform: "uppercase"
               }}>{p}</button>
             ))}
@@ -299,31 +316,21 @@ export default function App() {
             <style>{`@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }`}</style>
             {page === "about" && <PageAbout lang={lang} />}
             {page === "research" && <PageResearch lang={lang} />}
-            {page === "engagement" && (
-               <div style={{ maxWidth: 850 }}>
-                 {data.engagement.map(item => (
-                   <div key={item.id} style={{ marginBottom: "2rem", borderBottom: theme.border, paddingBottom: "1.5rem" }}>
-                     <h4 style={{ fontFamily: theme.fontSerif, fontSize: "1.3rem", margin: "0 0 0.5rem" }}>{item.title}</h4>
-                     <p style={{ fontSize: "11px", color: theme.colorDetail, textTransform: "uppercase", marginBottom: "0.8rem" }}>{item.year}</p>
-                     <p style={{ fontSize: "1rem", lineHeight: 1.7, color: theme.colorSub }}>{item.descCN || item.desc}</p>
-                     {item.link && <a href={item.link} target="_blank" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline" }}>Visit Link ↗</a>}
-                   </div>
-                 ))}
-               </div>
-            )}
+            {page === "engagement" && <PageEngagement lang={lang} />}
             {page === "blog" && <PageBlog lang={lang} />}
             {page === "cv" && (
-               <div style={{ maxWidth: 700, lineHeight: 2 }}>
-                  <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.6rem", borderBottom: "1px solid #eee", marginBottom: "1.5rem" }}>Education / 教育背景</h3>
-                  {(lang === "cn" ? data.cv.cn : data.cv.en).map((item, i) => (
-                    <p key={i}><strong>{item.school}</strong><br/>{item.major} ({item.period})</p>
-                  ))}
-                  <p style={{ color: theme.colorDetail, marginTop: "2rem" }}>Full Academic Portfolio and CV available via email.</p>
+               <div style={{ maxWidth: 700, lineHeight: 2.2 }}>
+                  <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #eee", marginBottom: "1.5rem" }}>{lang === "cn" ? "教育背景" : "Education"}</h3>
+                  <p><strong>University of Chinese Academy of Social Sciences</strong><br/>BA Sociology (2022-2027)</p>
+                  <p><strong>UC Berkeley</strong><br/>BISP Extension Student (2024 Spring)</p>
+                  <p style={{ color: theme.colorDetail, marginTop: "2rem", fontStyle: "italic" }}>
+                    {lang === "cn" ? "完整学术作品集与简历请通过邮件索取。" : "Full Academic Portfolio and CV available via email."}
+                  </p>
                </div>
             )}
             {page === "contact" && (
               <div style={{ maxWidth: 850 }}>
-                <p style={{ fontSize: "1.1rem", color: theme.colorSub, lineHeight: 1.85, marginBottom: "3rem", whiteSpace: "pre-wrap" }}>
+                <p style={{ fontSize: "1.1rem", color: theme.colorSub, lineHeight: 1.85, marginBottom: "3rem", whiteSpace: "pre-wrap", textAlign: "justify" }}>
                   {lang === "cn" 
                     ? "欢迎在北京约一杯咖啡面谈，或通过邮件联系我。\n我非常欢迎与大家交流关于社会学、性与性别、酷儿生活、公共社会学或研究生申请等相关话题，也欢迎任何潜在的合作机会，或者就你正在思考的问题展开对话。" 
                     : "I am open to coffee chats in Beijing, or feel free to reach out via email.\nI welcome conversations on sociology, gender and sexuality, queer life, public sociology, graduate study applications, or any ideas you are currently thinking through. I am also open to potential collaborations, or simply engaging in dialogue around questions that matter to you."}
