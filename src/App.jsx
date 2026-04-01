@@ -10,7 +10,7 @@ const theme = {
 };
 
 const data = {
-  name: "Freya Feiyue Tang",
+  name: "freya feiyue tang",
   nameCN: "唐菲玥",
   tagline: "Gender & Sexuality · Queer Theory · Language & Power",
   taglineCN: "性别与性 · 酷儿理论 · 语言与权力",
@@ -178,40 +178,28 @@ const data = {
   }
 };
 
-// --- 背景组件：均衡彩虹旗六色 ---
 function FlagBackground() {
   return (
-    <div style={{ position: "fixed", inset: 0, zIndex: 0, overflow: "hidden", pointerEvents: "none", background: "#fff" }}>
+    <div style={{ 
+      position: "fixed", inset: 0, zIndex: -1, overflow: "hidden", pointerEvents: "none",
+      // 这里是彩虹旗背景，通过 background-size 放大，background-position 移动来创造飘扬感
+      background: `linear-gradient(135deg, 
+        #E40303 0%, #FF8C00 16%, #FFED00 33%, 
+        #008026 50%, #004DFF 66%, #750785 100%)`,
+      backgroundSize: "200% 200%",
+      animation: "floatBackground 20s ease infinite alternate"
+    }}>
       <style>{`
-        @keyframes flow { 0% { transform: translate(-3%, -3%) rotate(0deg); } 50% { transform: translate(3%, 3%) rotate(1deg); } 100% { transform: translate(-3%, -3%) rotate(0deg); } }
-        @keyframes flowReverse { 0% { transform: translate(3%, 3%) rotate(0deg); } 50% { transform: translate(-3%, -3%) rotate(-1deg); } 100% { transform: translate(3%, 3%) rotate(0deg); } }
+        @keyframes floatBackground {
+          0% { background-position: 0% 0%; }
+          100% { background-position: 100% 100%; }
+        }
       `}</style>
-      {/* 顶部：红橙黄 */}
+      {/* 叠加一层白色柔光，降低彩虹的对比度，使其更像背景而非色块 */}
       <div style={{
-        position: "absolute", width: "160vw", height: "55vh", top: "-10%", left: "-10%",
-        background: "linear-gradient(135deg, rgba(228,3,3,0.18) 0%, rgba(255,140,0,0.18) 40%, rgba(255,237,0,0.16) 100%)",
-        filter: "blur(65px)", animation: "flow 28s infinite ease-in-out"
+        position: "absolute", inset: 0,
+        background: "rgba(255, 255, 255, 0.85)"
       }} />
-      {/* 좌下：绿 */}
-      <div style={{
-        position: "absolute", width: "70vw", height: "60vh", bottom: "0", left: "-5%",
-        background: "radial-gradient(ellipse at center, rgba(0,128,38,0.16) 0%, rgba(0,128,38,0.04) 70%, transparent 100%)",
-        filter: "blur(60px)", animation: "flowReverse 32s infinite ease-in-out"
-      }} />
-      {/* 右下：蓝紫 */}
-      <div style={{
-        position: "absolute", width: "70vw", height: "60vh", bottom: "0", right: "-5%",
-        background: "linear-gradient(135deg, rgba(0,77,255,0.15) 0%, rgba(117,7,135,0.15) 100%)",
-        filter: "blur(65px)", animation: "flow 26s infinite ease-in-out reverse"
-      }} />
-      {/* 中央柔化层，让六色自然融合 */}
-      <div style={{
-        position: "absolute", width: "100vw", height: "100vh", top: 0, left: 0,
-        background: "radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0.55) 0%, transparent 80%)",
-        pointerEvents: "none"
-      }} />
-      {/* 噪点纹理 */}
-      <div style={{ position: "absolute", inset: 0, opacity: 0.04, backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")` }} />
     </div>
   );
 }
@@ -226,7 +214,7 @@ function PageAbout({ lang }) {
           <h1 style={{ fontFamily: theme.fontSerif, fontSize: "clamp(2rem, 8vw, 3rem)", fontWeight: 400, margin: "0 0 0.5rem", letterSpacing: "-0.02em" }}>
             {lang === "cn" ? data.nameCN : data.name}
           </h1>
-          <p style={{ fontSize: "1rem", letterSpacing: "0.08em", textTransform: "uppercase", color: "#333", margin: 0 }}>
+          <p style={{ fontSize: "1rem", letterSpacing: "0.08em", textTransform: "none", color: "#333", margin: 0 }}>
             {lang === "cn" ? data.taglineCN : data.tagline}
           </p>
           <p style={{ fontSize: "0.85rem", color: theme.colorDetail, marginTop: "0.4rem" }}>
@@ -234,7 +222,7 @@ function PageAbout({ lang }) {
           </p>
         </div>
         <div style={{ flex: "0 0 200px", margin: "0 auto" }}>
-          <div style={{ width: "200px", height: "265px", border: "5px solid white", boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}>
+          <div style={{ width: "150px", height: "199px", border: "5px solid white", boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}>
             <img src="/profile.jpg" alt="Freya Tang" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
           <p style={{ fontSize: "0.85rem", color: theme.colorDetail, marginTop: "0.6rem", textAlign: "center", fontStyle: "italic", fontFamily: theme.fontSerif }}>Beijing, 2026</p>
@@ -305,7 +293,7 @@ function PageBlog({ lang }) {
     <div style={{ maxWidth: 850 }}>
       <section style={{ marginBottom: "4rem" }}>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>{lang === "cn" ? "思考" : "Thinking"}</h3>
-        <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "'尚未定论的、正在形成的——我持续探索中的问题与研究想法。'" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
+        <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "尚未定论的、正在形成的——我持续探索中的问题与研究想法。" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
         {data.blog.thinking.map(t => (
           <div key={t.id} style={{ marginBottom: "2rem", padding: "1.2rem", border: theme.border, background: "rgba(255,255,255,0.3)" }}>
             <h5 style={{ fontFamily: theme.fontSerif, fontSize: "1.2rem", margin: "0 0 0.5rem" }}>{lang === "cn" ? t.titleCN : t.title}</h5>
