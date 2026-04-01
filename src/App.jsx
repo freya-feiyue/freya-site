@@ -11,7 +11,7 @@ const theme = {
 };
 
 const data = {
-  name: "freya feiyue tang",
+  name: "Freya Feiyue Tang",
   nameCN: "唐菲玥",
   tagline: "Gender & Sexuality · Queer Theory · Language & Power",
   taglineCN: "性别与性 · 酷儿理论 · 语言与权力",
@@ -35,7 +35,7 @@ const data = {
         status: "First Author | Project Thesis (Excellent)",
         statusCN: "第一作者｜项目论文（推荐优秀）",
         abstract: "This research examines the emergence of “gender reversal” short videos on social media, combining critical discourse analysis with semi-structure interviews, drawing on Bourdieu’s practice theory and framework of symbolic violence, Foucault’s discourse–power perspective, and Butler’s theory of gender performativity. It explores how audiences engage in the negotiation of gender discourse through viewing, interpreting, and reproducing “gender reversal” content. The findings show that “gender reversal” symbolically inverts social norms to render the latent and often hidden forms of everyday gendered violence visible. By producing “counter discourses,” these videos provide female audiences with emotional resonance and a sense of legitimacy for action, encouraging them to express dissatisfaction, voice objections, and challenge existing gender norms in daily interactions. However, the political efficacy of such narratives is constrained by the intrinsic tension of ironic structures and the limitations of the binary gender framework, restricting their capacity to fundamentally subvert gender hierarchies. The reaserch argues that “gender reversal” functions not only as a strategic practice resisting patriarchal discourse but also as a critical lens through which the complexities of gendered power relations in the digital era can be examined. It offers an important window into the interplay among media, affective politics, and social structures, revealing how symbols, language, and performance mediate the negotiation of identity and power.",
-        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语”的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
+        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语”的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙 narratives 的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境，使得其在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
         keywords: "gender language; gender discourse; gender reversal; discursive power",
         keywordsCN: "性别语言；性别话语；性别倒转；话语权力"
       },
@@ -50,6 +50,7 @@ const data = {
         keywords: "textile industry; female workers; gender and labor; rural industrialization",
         keywordsCN: "纺织业；女性工人；性别与劳动；农村工业化",
         extra: {
+          en: "Fieldwork Experience: Conducted ethnographic fieldwork over three consecutive years in Village Y (Zhejiang) and Village K (Jiangsu). Independently completed more than 30 semi-structured interviews. Related works include 'After Selling the Looms' and 'Exploring the Forms and Causes of Two-sided Marriage'.",
           cn: "田野调查经验：连续三年赴浙江Y村与江苏K村开展田野调查，累计调研逾1个月，独立完成30余次半结构式访谈，独立撰写3篇调研报告。相关论文包括《卖掉织机之后》《浙北“两头婚”的实践形式与成因探讨》。",
           link: "http://www.cass.cn/keyandongtai/guoqingdiaoyan/202508/t20250815_5910869.shtml"
         }
@@ -60,10 +61,10 @@ const data = {
         titleCN: "性别观念对上行式代际关系的影响——基于CFPS2020的分析",
         status: "Sole Author | Course Paper (2025)",
         statusCN: "独立作者｜课程论文（2025）",
-        abstract: "Using CFPS 2020 data and generalized ordered logit models, this study reveals that moderately traditional gender attitudes are associated with higher intimacy, while extreme views negatively affect closeness. Gender differences are prominent in relationships with mothers.",
-        abstractCN: "基于CFPS2020数据，采用广义有序Logit模型。实证表明性别观念对代际关系的影响呈现显著的非线性特征：较为保守的性别观念与较高的亲密度显著相关，而极端保守或极端平等的性别观念则可能对亲密度产生负面影响。",
-        keywords: "Family sociology; intergenerational relations; gender attitudes",
-        keywordsCN: "家庭社会学；代际关系；性别观念"
+        abstract: "This study examines how gender attitudes influence intergenerational relationships between adult children and their parents. Using CFPS 2020 data and generalized ordered logit models, it analyzes how gender attitudes, age, and gender jointly shape relational closeness. The findings reveal a significant nonlinear relationship: moderately traditional gender attitudes are associated with higher intimacy, while extremely conservative or extremely egalitarian views may negatively affect closeness. Gender differences are particularly evident in relationships with mothers, where male respondents report lower levels of intimacy. This study provides new insights into the interaction between family structures and gender norms in contemporary China.",
+        abstractCN: "本文旨在探讨个体性别观念对上行式代际关系，即成年子女与父母之间关系亲密度的影响。基于CFPS2020数据，本文采用广义有序Logit模型进行实证分析。实证结果表明，性别观念对代际关系的影响呈现显著的非线性特征：较为保守的性别观念与较高的亲密度显著相关，而极端保守或极端平等的性别观念则可能对亲密度产生负面影响。此外，性别差异在与母亲的关系中尤为显著，男性与母亲的亲密度明显较低。本文的研究为理解中国社会转型过程中家庭结构和性别因素的互动提供了新的理论视角。",
+        keywords: "sociology of family; intergenerational relations; gender attitudes; generalized ordered logit model",
+        keywordsCN: "家庭社会学；代际关系；性别观念；广义有序逻辑模型"
       },
       {
         id: 4,
@@ -71,14 +72,18 @@ const data = {
         titleCN: "劳动参与、婚姻稳定与家庭人口结构 ——基于CFPS的实证研究",
         status: "Third Author | Published (2025)",
         statusCN: "第三作者｜项目论文（发表于2025）",
-        abstract: "This study uses CFPS data (2014-2020) to estimate the effects of absolute and relative labor participation time on individual marital satisfaction, examining mechanisms like domestic labor and intergenerational childcare.",
-        abstractCN: "运用Logit及面板模型，估计劳动参与对婚姻满意度的影响。成果收录于《人文社会科学青年学子优秀论文选（2024）》ISBN:978-7-5228-4278-3。",
-        link: "https://xianxiao.ssap.com.cn/member/home/member_id/436549.html",
-        keywords: "labor participation; marital satisfaction; domestic labor",
-        keywordsCN: "劳动参与；婚姻满意度；家务劳动"
+        abstract: "This study uses CFPS data for 2014, 2018, and 2020 to estimate the effects of both absolute and relative labor participation time on individual marital satisfaction. The study further examines mechanisms focusing on norms of family division of labor and domestic work. It also explores heterogeneity across gender, educational matching, and intergenerational childcare arrangements.",
+        abstractCN: "本文使用2014、2018和2020年CFPS数据，运用Logit、Ordered Logit及面板模型，系统估计了劳动参与的绝对和相对时间对于个体婚姻满意度的影响。并从“家庭分工观念”、“家务劳动”两方面分析了影响机制，从性别、婚姻教育匹配、隔代抚养等维度考察了异质性作用。成果收录于《人文社会科学青年学子优秀论文选（2024）》ISBN:978-7-5228-4278-3。",
+        keywords: "labor participation; marital satisfaction; domestic labor; intergenerational childcare",
+        keywordsCN: "劳动参与；婚姻满意度；家务劳动；隔代抚养",
+        extra: {
+          link: "https://xianxiao.ssap.com.cn/member/home/member_id/436549.html"
+        }
+  
       }
     ]
   },
+
   engagement: [
     {
       id: 1,
@@ -108,24 +113,35 @@ const data = {
       link: "https://mp.weixin.qq.com/s/lI2_d93PfVSaIfRtcGybAw"
     }
   ],
-  blog: {
-    thinking: [
-      {
-        id: 1,
-        title: "“ta” as a Gendered / Gender-Neutral Signifier | 关于“ta”作为性别中立代词的思考",
-        contentCN: "中文口语无法听出性别，但在书写中标记。与英语中的“they”或瑞典语中的“hen”不同，中文并没有一个被广泛稳定接受的性别中立代词。我想理解人们如何使用它，以及它能否承载我们期待它所承载的政治与情感重量。"
-      },
-      {
-        id: 2,
-        title: "Muscles as Gender Signifiers | 肌肉作为性别符号",
-        contentCN: "男性展示肌肉几乎不需要额外解释。但当女性进行力量训练并展示肌肉时，这种身体会被如何理解？是威胁？是“很酷”？是越轨？还是另一种被规训的身体？"
-      },
-      {
-        id: 3,
-        title: "Women Smoking and Gendered Norms | 女性吸烟与性别规范",
-        contentCN: "为什么女性吸烟仍然常常被视为一种“越轨行为”？这种观念背后，运作的是怎样的性别规范与社会期待？"
-      }
-    ],
+    blog: {
+    thinking: {
+      en: "Unsettled questions, ideas in formation—things I keep returning to. Not yet research, but not not-research either.",
+      cn: "“还没成为研究的问题，但也不是不是研究的问题。”",
+      items: [
+        {
+          id: 1,
+          title: "“ta” as a Gendered / Gender-Neutral Signifier",
+          titleCN: "关于“ta”作为性别中立代词的思考",
+          content: "Chinese is a language where gender is not audible in speech but marked in writing. “Ta” (他/她/它) has been used in matchmaking ads (“come find your ta”) and by queer communities as a gender-neutral marker. Unlike English “they” or Swedish “hen,” Chinese does not offer a widely stabilized gender-neutral pronoun. I am interested in how people use it and whether it can carry the kinds of political and affective weight we ask it to bear.",
+          contentCN: "中文是一种在口语中无法直接听出性别，但在书写中明确标记性别的语言。“ta”既被用在相亲广告中（“来找你的那个ta”），也被酷儿社群用作性别中立的表达。与英语中的“they”或瑞典语中的“hen”不同，中文并没有一个被广泛稳定接受的性别中立代词。我想理解人们如何使用它，以及它是否能够承载我们期待它所承载的政治与情感重量。"
+        },
+        {
+          id: 2,
+          title: "Muscles as Gender Signifiers",
+          titleCN: "肌肉作为性别符号",
+          content: "Muscularity in men is often read as masculinity. But when women develop visible muscle, what is it read as? Threatening? Cool? Transgressive? Or another form of disciplined body? I am still unsure whether this belongs to the sociology of the body, sports sociology, or perhaps both.",
+          contentCN: "男性展示肌肉通常会被直接读作“男性气质”。但当女性展示肌肉时，这种身体会被如何理解？是威胁？是“很酷”？是越轨？还是另一种被规训的身体？这个问题究竟属于身体社会学还是运动社会学？"
+        },
+        {
+          id: 3,
+          title: "Women Smoking and Gendered Norms",
+          titleCN: "女性吸烟与性别规范",
+          content: "Why is women’s smoking still widely perceived as deviant? What kinds of gendered norms and expectations are at work in producing this perception?",
+          contentCN: "为什么女性吸烟仍然常常被视为一种“越轨行为”？这种观念背后，运作的是怎样的性别规范与社会期待？"
+        }
+      ]
+    },
+
     essays: [
       {
         id: 1,
