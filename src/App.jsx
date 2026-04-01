@@ -172,7 +172,7 @@ const data = {
       { school: "University of California, Berkeley", major: "BISP Extension Student", period: "2024 Spring" }
     ],
     cn: [
-      { school: "中国社会科学院大学", major: "社会学 本科", period: "2022-09 ~ 2027" },
+      { school: "中国社会科学院大学", major: "社会学 本科", period: "2022 ~ 2027" },
       { school: "加州大学伯克利分校", major: "BISP 交换生", period: "2024 春季" }
     ]
   }
