@@ -1,17 +1,19 @@
 import { useState, useEffect, useRef } from "react";
- 
+
 const data = {
   name: "freya feiyue tang",
   nameCN: "唐菲玥",
   title: "Sociologist in formation",
   tagline: "Gender · Sexuality · Queer Theory · Language & Power",
   taglineCN: "性别 · 性 · 酷儿理论 · 语言与权力",
+  pronouns: "she/they · not he/him · Beijing",
+  pronounsCN: "she/they · 非he/him · 北京",
   affiliation: "University of Chinese Academy of Social Sciences, Sociology, Class of 2027",
   affiliationCN: "中国社会科学院大学 社会学，2027届",
   email: "feiyue.tang@outlook.com",
   about: {
-    en: `I'm an undergraduate sociology student at the University of Chinese Academy of Social Sciences, where I research gender, sexuality, and queer life in contemporary China. My work sits at the intersection of the sociology of gender, queer theory, and sociolinguistics—I'm interested in how norms reproduce themselves, how bodies are made to signify, and where everyday practice disrupts that reproduction.\n\nCurrently I'm developing a paper on symbolic violence embedded in gendered language—asking whether people can recognize it, and what they do when they do. I'm also thinking about queer methodology, the politics of fieldwork, and what it means to do research about communities you belong to.\n\nI'm preparing to apply for graduate programs (Fall 2027) in gender studies and sociology, with a long-term interest in pursuing a PhD.\n\nPronouns: she/they (not he/him). Based in Beijing.`,
-    cn: `我是中国社会科学院大学社会学系的本科生，研究当代中国的性别、性、与酷儿生活。我的工作处于性别社会学、酷儿理论与社会语言学的交叉地带——我关心规范如何自我再生产，身体如何被赋予意义，以及日常实践在哪里打断了这一过程。\n\n目前我在写一篇关于性别化语言中的符号暴力的论文：公众能识别这种无处不在的暴力吗？识别之后，又会生发出什么样的反抗？我同时在思考酷儿方法论、田野调查的政治，以及在自己所属的社群中做研究意味着什么。\n\n我正在准备申请2027年秋季的海外硕士项目（性别研究/社会学方向），长期有读博的打算。\n\n代词：she/they（非he/him）。常驻北京。`
+    en: `I'm an undergraduate sociology student at the University of Chinese Academy of Social Sciences, where I research gender, sexuality, and queer life in contemporary China. My work sits at the intersection of the sociology of gender, queer theory, and sociolinguistics—I'm interested in how norms reproduce themselves, how bodies are made to signify, and where everyday practice disrupts that reproduction.\n\nCurrently I'm developing a paper on symbolic violence embedded in gendered language—asking whether people can recognize it, and what they do when they do. I'm also thinking about queer methodology, the politics of fieldwork, and what it means to do research about communities you belong to.\n\nI'm preparing to apply for graduate programs (Fall 2027) in gender studies and sociology, with a long-term interest in pursuing a PhD.`,
+    cn: `我是中国社会科学院大学社会学系的本科生，研究当代中国的性别、性、与酷儿生活。我的工作处于性别社会学、酷儿理论与社会语言学的交叉地带——我关心规范如何自我再生产，身体如何被赋予意义，以及日常实践在哪里打断了这一过程。\n\n目前我在写一篇关于性别化语言中的符号暴力的论文：公众能识别这种无处不在的暴力吗？识别之后，又会生发出什么样的反抗？我同时在思考酷儿方法论、田野调查的政治，以及在自己所属的社群中做研究意味着什么。\n\n我正在准备申请2027年秋季的海外硕士项目（性别研究/社会学方向），长期有读博的打算。`
   },
   interests: {
     en: ["Sociology of Gender", "Sociology of Sexuality", "Queer Theory", "sociolinguistics"],
@@ -88,22 +90,22 @@ const data = {
   ],
   blog: [
     {
-      id: 2,
+      id: 1,
       title: "On 'ta': gender-neutral pronouns in a language that hears no gender",
       titleCN: "关于'ta'：一种听不出性别的语言里的性别中立代词",
       body: "Chinese is a language where gender is invisible in speech but visible in writing. 'Ta' has been used on matchmaking ads ('come find your ta') and by queer friends as a gender-neutral marker—but these are very different claims on the same character. Unlike 'they' or Swedish 'hen,' Chinese offers only 'ta' or his/her. I want to understand how people use it, what they mean by it, and whether it can hold the weight we are asking it to carry.",
       bodyCN: "中文是一种在对话中听不出性别、但在文字里有性别的语言。'ta'被用在相亲广告里（'来找你的那个ta'），也被酷儿朋友们用作性别中立的表达——但这是对同一个字的截然不同的主张。不像'they'或瑞典语'hen'，中文只有'ta'或'他/她'。我想了解人们怎么使用它、用它意味着什么，以及它能否承载我们赋予它的重量。",
       date: "Spring 2026"
-    },
+    }
   ]
 };
- 
+
 const statusColor = {
   "under revision": { bg: "#faeeda", text: "#633806" },
   "completed": { bg: "#e1f5ee", text: "#085041" },
   "in progress": { bg: "#eeedfe", text: "#3c3489" }
 };
- 
+
 function Tag({ label }) {
   return (
     <span style={{
@@ -116,7 +118,7 @@ function Tag({ label }) {
     }}>{label}</span>
   );
 }
- 
+
 function StatusBadge({ status, statusCN, lang }) {
   const c = statusColor[status] || statusColor["in progress"];
   return (
@@ -130,67 +132,89 @@ function StatusBadge({ status, statusCN, lang }) {
     }}>{lang === "cn" && statusCN ? statusCN : status}</span>
   );
 }
- 
+
 function AnimatedBackground() {
   return (
     <div style={{ position: "fixed", inset: 0, zIndex: 0, overflow: "hidden", pointerEvents: "none" }}>
       <style>{`
         @keyframes drift1 {
           0%,100%{transform:translate(0,0) scale(1)}
-          33%{transform:translate(60px,-80px) scale(1.1)}
-          66%{transform:translate(-40px,60px) scale(0.95)}
+          33%{transform:translate(55px,-75px) scale(1.08)}
+          66%{transform:translate(-35px,55px) scale(0.94)}
         }
         @keyframes drift2 {
           0%,100%{transform:translate(0,0) scale(1)}
-          33%{transform:translate(-70px,50px) scale(1.05)}
-          66%{transform:translate(80px,-60px) scale(1.1)}
+          33%{transform:translate(-65px,45px) scale(1.06)}
+          66%{transform:translate(70px,-55px) scale(1.1)}
         }
         @keyframes drift3 {
           0%,100%{transform:translate(0,0) scale(1)}
-          50%{transform:translate(50px,70px) scale(0.9)}
+          50%{transform:translate(45px,65px) scale(0.92)}
         }
         @keyframes drift4 {
           0%,100%{transform:translate(0,0) scale(1)}
-          40%{transform:translate(-60px,-50px) scale(1.08)}
-          80%{transform:translate(40px,30px) scale(0.95)}
+          40%{transform:translate(-55px,-45px) scale(1.07)}
+          80%{transform:translate(35px,25px) scale(0.96)}
+        }
+        @keyframes drift5 {
+          0%,100%{transform:translate(0,0) scale(1)}
+          25%{transform:translate(40px,60px) scale(1.05)}
+          75%{transform:translate(-50px,-30px) scale(0.93)}
         }
       `}</style>
-      <div style={{ position:"absolute", width:600, height:600, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,182,193,0.35) 0%,transparent 70%)", top:"-10%", left:"-10%", animation:"drift1 18s ease-in-out infinite" }} />
-      <div style={{ position:"absolute", width:500, height:500, borderRadius:"50%", background:"radial-gradient(circle,rgba(179,136,255,0.3) 0%,transparent 70%)", top:"10%", right:"-5%", animation:"drift2 22s ease-in-out infinite" }} />
-      <div style={{ position:"absolute", width:450, height:450, borderRadius:"50%", background:"radial-gradient(circle,rgba(135,206,250,0.28) 0%,transparent 70%)", bottom:"5%", left:"20%", animation:"drift3 20s ease-in-out infinite" }} />
-      <div style={{ position:"absolute", width:400, height:400, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,218,185,0.32) 0%,transparent 70%)", bottom:"-5%", right:"10%", animation:"drift4 25s ease-in-out infinite" }} />
-      <div style={{ position:"absolute", width:350, height:350, borderRadius:"50%", background:"radial-gradient(circle,rgba(152,251,152,0.2) 0%,transparent 70%)", top:"40%", left:"40%", animation:"drift2 30s ease-in-out infinite reverse" }} />
+
+      {/* 六色彩虹旗 — 红橙黄绿蓝紫，分布在画面各区域 */}
+      <div style={{ position:"absolute", width:650, height:650, borderRadius:"50%", background:"radial-gradient(circle,rgba(228,3,3,0.28) 0%,transparent 65%)", top:"-8%", left:"-8%", animation:"drift1 20s ease-in-out infinite" }} />
+      <div style={{ position:"absolute", width:580, height:580, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,140,0,0.26) 0%,transparent 65%)", top:"8%", left:"18%", animation:"drift3 26s ease-in-out infinite" }} />
+      <div style={{ position:"absolute", width:520, height:520, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,237,0,0.28) 0%,transparent 65%)", top:"-5%", right:"15%", animation:"drift2 22s ease-in-out infinite" }} />
+      <div style={{ position:"absolute", width:560, height:560, borderRadius:"50%", background:"radial-gradient(circle,rgba(0,128,38,0.2) 0%,transparent 65%)", top:"30%", left:"-5%", animation:"drift4 24s ease-in-out infinite" }} />
+      <div style={{ position:"absolute", width:600, height:600, borderRadius:"50%", background:"radial-gradient(circle,rgba(0,77,255,0.2) 0%,transparent 65%)", top:"25%", right:"-8%", animation:"drift5 28s ease-in-out infinite" }} />
+      <div style={{ position:"absolute", width:540, height:540, borderRadius:"50%", background:"radial-gradient(circle,rgba(117,7,135,0.22) 0%,transparent 65%)", top:"50%", left:"30%", animation:"drift3 30s ease-in-out infinite reverse" }} />
+
+      {/* 多元彩虹旗新增色 — 黑棕 */}
+      <div style={{ position:"absolute", width:420, height:420, borderRadius:"50%", background:"radial-gradient(circle,rgba(97,57,21,0.15) 0%,transparent 65%)", bottom:"20%", left:"8%", animation:"drift1 32s ease-in-out infinite reverse" }} />
+
+      {/* 女同旗 — 橙红白粉 */}
+      <div style={{ position:"absolute", width:500, height:500, borderRadius:"50%", background:"radial-gradient(circle,rgba(213,45,0,0.22) 0%,transparent 65%)", bottom:"5%", left:"0%", animation:"drift2 24s ease-in-out infinite reverse" }} />
+      <div style={{ position:"absolute", width:480, height:480, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,154,86,0.24) 0%,transparent 65%)", bottom:"15%", left:"20%", animation:"drift4 20s ease-in-out infinite reverse" }} />
+      <div style={{ position:"absolute", width:460, height:460, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,209,212,0.3) 0%,transparent 65%)", bottom:"0%", right:"25%", animation:"drift5 22s ease-in-out infinite" }} />
+
+      {/* 非二元旗 — 黄紫白 */}
+      <div style={{ position:"absolute", width:500, height:500, borderRadius:"50%", background:"radial-gradient(circle,rgba(255,244,48,0.26) 0%,transparent 65%)", bottom:"10%", right:"0%", animation:"drift3 18s ease-in-out infinite reverse" }} />
+      <div style={{ position:"absolute", width:540, height:540, borderRadius:"50%", background:"radial-gradient(circle,rgba(156,89,209,0.24) 0%,transparent 65%)", bottom:"-5%", right:"20%", animation:"drift1 26s ease-in-out infinite" }} />
+
+      {/* 噪点纹理层，让背景有grain质感 */}
+      <div style={{
+        position:"absolute", inset:0,
+        backgroundImage:`url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.08'/%3E%3C/svg%3E")`,
+        backgroundSize:"200px 200px",
+        opacity:0.4
+      }} />
     </div>
   );
 }
- 
+
 function PageAbout({ lang }) {
-  const [expanded, setExpanded] = useState(false);
   const paragraphs = data.about[lang].split("\n\n");
-  const interests = data.interests[lang] || data.interests.en;
- 
+
   return (
     <div style={{ maxWidth: 640 }}>
-      <div style={{ position: "relative" }}>
-        {paragraphs.map((p, i) => (
-          <p key={i} style={{
-            fontSize: 15, lineHeight: 1.8, color: "var(--color-text-primary)", marginBottom: "1.2rem",
-            display: (!expanded && i > 0) ? "none" : "block"
-          }}>{p}</p>
-        ))}
-        {!expanded && (
-          <div style={{ position:"absolute", bottom:0, left:0, right:0, height:60, background:"linear-gradient(transparent,rgba(255,255,255,0.85))" }} />
-        )}
-      </div>
-      <button onClick={() => setExpanded(!expanded)} style={{
-        marginTop: expanded ? "0.5rem" : "0.25rem", fontSize:13,
-        color:"var(--color-text-secondary)", background:"none", border:"none",
-        padding:0, cursor:"pointer", textDecoration:"underline", textDecorationStyle:"dotted"
-      }}>
-        {expanded ? (lang==="cn" ? "收起" : "show less") : (lang==="cn" ? "展开" : "read more")}
-      </button>
- 
-      <div style={{ marginTop: "2.5rem" }}>
+      {paragraphs.map((p, i) => (
+        <p key={i} style={{
+          fontSize: 15, lineHeight: 1.8, color: "var(--color-text-primary)", marginBottom: "1.2rem"
+        }}>{p}</p>
+      ))}
+    </div>
+  );
+}
+
+function PageResearch({ lang }) {
+  const [open, setOpen] = useState(null);
+  const interests = data.interests[lang] || data.interests.en;
+
+  return (
+    <div style={{ maxWidth: 680 }}>
+      <div style={{ marginBottom: "2.5rem" }}>
         <p style={{ fontSize:12, color:"var(--color-text-tertiary)", marginBottom:"0.8rem", letterSpacing:"0.08em", textTransform:"uppercase" }}>
           {lang==="cn" ? "研究兴趣" : "research interests"}
         </p>
@@ -198,23 +222,7 @@ function PageAbout({ lang }) {
           {interests.map(i => <Tag key={i} label={i} />)}
         </div>
       </div>
- 
-      <div style={{ marginTop:"2.5rem", padding:"1.2rem", borderLeft:"2px solid var(--color-border-secondary)", borderRadius:"0 var(--border-radius-md) var(--border-radius-md) 0", background:"rgba(255,255,255,0.5)" }}>
-        <p style={{ fontSize:13, color:"var(--color-text-secondary)", margin:"0 0 4px" }}>
-          {lang==="cn" ? data.affiliationCN : data.affiliation}
-        </p>
-        <p style={{ fontSize:13, color:"var(--color-text-tertiary)", margin:0 }}>
-          {lang==="cn" ? "申请2027年秋季硕士项目 · 有读博打算" : "Applying for MA/MSc programs, Fall 2027 · PhD track"}
-        </p>
-      </div>
-    </div>
-  );
-}
- 
-function PageResearch({ lang }) {
-  const [open, setOpen] = useState(null);
-  return (
-    <div style={{ maxWidth: 680 }}>
+
       {data.research.map((r, i) => (
         <div key={r.id} style={{ borderTop: i===0 ? "0.5px solid var(--color-border-tertiary)" : "none", borderBottom:"0.5px solid var(--color-border-tertiary)", padding:"1.2rem 0" }}>
           <div onClick={() => setOpen(open===r.id ? null : r.id)} style={{ cursor:"pointer" }}>
@@ -236,17 +244,17 @@ function PageResearch({ lang }) {
           </div>
           {open===r.id && (
             <div style={{ marginTop:"1rem" }}>
+              <div style={{ display:"flex", flexWrap:"wrap", gap:6, marginBottom:"0.8rem" }}>
+                {r.tags.map(t => <Tag key={t} label={t} />)}
+              </div>
               <p style={{ fontSize:13, lineHeight:1.7, color:"var(--color-text-secondary)", margin:"0 0 0.8rem" }}>
                 {lang==="cn" ? r.abstractCN : r.abstract}
               </p>
               {r.note && (
-                <p style={{ fontSize:12, color:"var(--color-text-tertiary)", fontStyle:"italic", margin:"0 0 0.8rem" }}>
+                <p style={{ fontSize:12, color:"var(--color-text-tertiary)", fontStyle:"italic", margin:0 }}>
                   {lang==="cn" && r.noteCN ? r.noteCN : r.note}
                 </p>
               )}
-              <div style={{ display:"flex", flexWrap:"wrap", gap:6 }}>
-                {r.tags.map(t => <Tag key={t} label={t} />)}
-              </div>
             </div>
           )}
         </div>
@@ -254,7 +262,7 @@ function PageResearch({ lang }) {
     </div>
   );
 }
- 
+
 function PageBlog({ lang }) {
   const [open, setOpen] = useState(null);
   return (
@@ -290,7 +298,7 @@ function PageBlog({ lang }) {
     </div>
   );
 }
- 
+
 function PageCV({ lang }) {
   const sections = [
     {
@@ -324,7 +332,7 @@ function PageCV({ lang }) {
       ]
     }
   ];
- 
+
   return (
     <div style={{ maxWidth: 660 }}>
       {sections.map((sec, si) => (
@@ -348,26 +356,41 @@ function PageCV({ lang }) {
     </div>
   );
 }
- 
+
 function PageContact({ lang }) {
   return (
     <div style={{ maxWidth: 480 }}>
-      <p style={{ fontSize:15, lineHeight:1.8, color:"var(--color-text-primary)", marginBottom:"2rem" }}>
-        {lang==="cn" ? "欢迎就中国性别与酷儿研究、研究生申请、潜在合作，或者任何你正在思考的问题展开对话。" : "I'm open to conversations about gender and queer research in China, graduate school applications, potential collaboration, or just ideas you're turning over."}
+      <p style={{ fontSize:15, lineHeight:1.8, color:"var(--color-text-primary)", marginBottom:"2.5rem" }}>
+        {lang==="cn"
+          ? "欢迎就中国性别与酷儿研究、研究生申请、潜在合作，或者任何你正在思考的问题展开对话。"
+          : "I'm open to conversations about gender and queer research in China, graduate school applications, potential collaboration, or just ideas you're turning over."}
       </p>
-      <div style={{ display:"flex", flexDirection:"column", gap:"1rem" }}>
-        <div style={{ padding:"1rem 1.25rem", border:"0.5px solid var(--color-border-tertiary)", borderRadius:"var(--border-radius-lg)", display:"flex", alignItems:"center", gap:12, background:"rgba(255,255,255,0.55)" }}>
-          <div style={{ width:32, height:32, borderRadius:"50%", background:"var(--color-background-secondary)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:14 }}>@</div>
+      <a href={`mailto:${data.email}`} style={{ textDecoration:"none", display:"block" }}>
+        <div style={{
+          padding:"1.25rem 1.5rem",
+          border:"0.5px solid var(--color-border-secondary)",
+          borderRadius:"var(--border-radius-lg)",
+          background:"rgba(255,255,255,0.6)",
+          display:"flex", alignItems:"center", justifyContent:"space-between",
+          transition:"border-color 0.15s, background 0.15s",
+          cursor:"pointer"
+        }}
+          onMouseEnter={e => { e.currentTarget.style.borderColor="var(--color-border-primary)"; e.currentTarget.style.background="rgba(255,255,255,0.85)"; }}
+          onMouseLeave={e => { e.currentTarget.style.borderColor="var(--color-border-secondary)"; e.currentTarget.style.background="rgba(255,255,255,0.6)"; }}
+        >
           <div>
-            <p style={{ fontSize:11, color:"var(--color-text-tertiary)", margin:"0 0 2px", textTransform:"uppercase", letterSpacing:"0.07em" }}>Email</p>
-            <a href={`mailto:${data.email}`} style={{ fontSize:14, color:"var(--color-text-info)", textDecoration:"none" }}>{data.email}</a>
+            <p style={{ fontSize:11, color:"var(--color-text-tertiary)", margin:"0 0 4px", textTransform:"uppercase", letterSpacing:"0.08em" }}>
+              {lang==="cn" ? "邮件" : "Email"}
+            </p>
+            <p style={{ fontSize:15, color:"var(--color-text-primary)", margin:0, fontWeight:500 }}>{data.email}</p>
           </div>
+          <span style={{ fontSize:18, color:"var(--color-text-tertiary)" }}>↗</span>
         </div>
-      </div>
+      </a>
     </div>
   );
 }
- 
+
 const pages = [
   { id:"about", labelEN:"About", labelCN:"关于" },
   { id:"research", labelEN:"Research", labelCN:"研究" },
@@ -375,13 +398,13 @@ const pages = [
   { id:"cv", labelEN:"CV", labelCN:"简历" },
   { id:"contact", labelEN:"Contact", labelCN:"联系" }
 ];
- 
+
 export default function App() {
   const [page, setPage] = useState("about");
   const [lang, setLang] = useState("en");
   const [scrolled, setScrolled] = useState(false);
   const containerRef = useRef(null);
- 
+
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
@@ -389,10 +412,10 @@ export default function App() {
     el.addEventListener("scroll", handler);
     return () => el.removeEventListener("scroll", handler);
   }, []);
- 
+
   const currentPage = pages.find(p => p.id === page);
   const pageLabel = lang==="cn" ? currentPage?.labelCN : currentPage?.labelEN;
- 
+
   return (
     <div ref={containerRef} style={{ minHeight:"100vh", fontFamily:"var(--font-sans)", background:"transparent", overflowY:"auto", position:"relative" }}>
       <AnimatedBackground />
@@ -409,7 +432,7 @@ export default function App() {
             <nav style={{ display:"flex", gap:"0.25rem" }}>
               {pages.map(p => (
                 <button key={p.id} onClick={() => setPage(p.id)} style={{
-                  fontSize:13, padding:"4px 10px", borderRadius:6, border:"none",
+                  fontSize:15, padding:"4px 12px", borderRadius:6, border:"none",
                   background: page===p.id ? "rgba(0,0,0,0.08)" : "transparent",
                   color: page===p.id ? "var(--color-text-primary)" : "var(--color-text-secondary)",
                   cursor:"pointer", fontWeight: page===p.id ? 500 : 400, transition:"all 0.15s"
@@ -429,21 +452,24 @@ export default function App() {
             </div>
           </div>
         </header>
- 
+
         {page==="about" && (
           <div style={{ maxWidth:800, margin:"0 auto", padding:"4rem 2rem 2rem" }}>
-            <div style={{ marginBottom:"2rem" }}>
-              <h1 style={{ fontSize:"clamp(2.2rem,6vw,3.5rem)", fontWeight:400, margin:"0 0 0.3rem", color:"var(--color-text-primary)", letterSpacing:"-0.02em", lineHeight:1.1, fontFamily:"var(--font-serif)" }}>
+            <div style={{ marginBottom:"1rem" }}>
+              <h1 style={{ fontSize:"clamp(2.2rem,6vw,3.5rem)", fontWeight:400, margin:"0 0 0.5rem", color:"var(--color-text-primary)", letterSpacing:"-0.02em", lineHeight:1.1, fontFamily:"var(--font-serif)" }}>
                 {data.name}
               </h1>
-              <p style={{ fontSize:15, color:"var(--color-text-secondary)", margin:"0.5rem 0 0", letterSpacing:"0.01em" }}>
+              <p style={{ fontSize:13, color:"var(--color-text-secondary)", margin:"0 0 0.3rem", letterSpacing:"0.01em" }}>
                 {lang==="cn" ? data.taglineCN : data.tagline}
               </p>
+              <p style={{ fontSize:13, color:"var(--color-text-tertiary)", margin:0, letterSpacing:"0.01em" }}>
+                {lang==="cn" ? data.pronounsCN : data.pronouns}
+              </p>
             </div>
-            <div style={{ width:40, height:1, background:"var(--color-border-secondary)", margin:"2rem 0" }} />
+            <div style={{ width:40, height:1, background:"var(--color-border-secondary)", margin:"1.2rem 0" }} />
           </div>
         )}
- 
+
         <main style={{ maxWidth:800, margin:"0 auto", padding: page==="about" ? "0 2rem 4rem" : "3rem 2rem 4rem" }}>
           {page!=="about" && (
             <h2 style={{ fontSize:"clamp(1.5rem,4vw,2rem)", fontWeight:400, fontFamily:"var(--font-serif)", margin:"0 0 2.5rem", color:"var(--color-text-primary)", letterSpacing:"-0.01em" }}>
@@ -456,7 +482,7 @@ export default function App() {
           {page==="cv" && <PageCV lang={lang} />}
           {page==="contact" && <PageContact lang={lang} />}
         </main>
- 
+
         <footer style={{ borderTop:"0.5px solid var(--color-border-tertiary)", padding:"1.5rem 2rem", maxWidth:800, margin:"0 auto" }}>
           <div style={{ display:"flex", justifyContent:"flex-end", alignItems:"center" }}>
             <div style={{ display:"flex", gap:6, alignItems:"center" }}>
