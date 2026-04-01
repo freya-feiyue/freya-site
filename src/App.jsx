@@ -6,7 +6,7 @@ const data = {
   title: "Sociologist in formation",
   tagline: "Gender · Sexuality · Queer Theory · Language & Power",
   taglineCN: "性别 · 性 · 酷儿理论 · 语言与权力",
-  affiliation: "UCASS (中国社会科学院大学), Sociology, Class of 2027",
+  affiliation: "University of Chinese Academy of Social Sciences, Sociology, Class of 2027",
   affiliationCN: "中国社会科学院大学 社会学，2027届",
   email: "feiyue.tang@outlook.com",
   about: {
@@ -24,7 +24,7 @@ const data = {
       titleCN: "性别化语言中的符号暴力：识别、反抗与日常实践",
       status: "under revision",
       statusCN: "修改中",
-      year: "2024-2025",
+      year: "2025-2026",
       type: "journal submission",
       typeCN: "期刊投稿",
       abstract: "Do people recognize the symbolic violence embedded in the gendered language that surrounds them? And when they do, what forms of resistance and action emerge in daily life? This paper examines public awareness of gendered linguistic norms and the small-scale practices through which people push back.",
@@ -37,7 +37,7 @@ const data = {
       titleCN: "性别观念对上行式代际关系的影响",
       status: "completed",
       statusCN: "已完成",
-      year: "2024",
+      year: "2025",
       type: "quantitative course paper",
       typeCN: "定量课程论文",
       note: "Based on CFPS 2020. Received high evaluation.",
@@ -52,7 +52,7 @@ const data = {
       titleCN: "卖掉织机之后：浙北家庭工业发展中的性别分工变迁",
       status: "completed",
       statusCN: "已完成",
-      year: "2023-2024",
+      year: "2023-2026",
       type: "ethnographic paper",
       typeCN: "民族志论文",
       abstract: "An ethnographic account of how the decline of household textile production in northern Zhejiang reshaped gender divisions of labor in rural families, drawing on fieldwork with female workers.",
@@ -65,7 +65,7 @@ const data = {
       titleCN: "北京酷儿群体空间体验与安全感生产",
       status: "completed",
       statusCN: "已完成",
-      year: "2023",
+      year: "2026",
       type: "urban sociology paper",
       typeCN: "城市社会学论文",
       abstract: "An exploration of how queer people in Beijing navigate, claim, and are excluded from urban space, and how safety is constructed through spatial practice and collective knowledge.",
@@ -78,7 +78,7 @@ const data = {
       titleCN: "代际关系的张力与协商：基于北京相亲角的质性研究",
       status: "completed",
       statusCN: "已完成",
-      year: "2023",
+      year: "2025",
       type: "qualitative fieldwork",
       typeCN: "质性田野研究",
       abstract: "Fieldwork at Beijing's public marriage corners, examining how parents and adult children negotiate competing visions of marriage, gender, and generational authority.",
@@ -93,7 +93,7 @@ const data = {
       titleCN: "关于'ta'：一种听不出性别的语言里的性别中立代词",
       body: "Chinese is a language where gender is invisible in speech but visible in writing. 'Ta' has been used on matchmaking ads ('come find your ta') and by queer friends as a gender-neutral marker—but these are very different claims on the same character. Unlike 'they' or Swedish 'hen,' Chinese offers only 'ta' or his/her. I want to understand how people use it, what they mean by it, and whether it can hold the weight we are asking it to carry.",
       bodyCN: "中文是一种在对话中听不出性别、但在文字里有性别的语言。'ta'被用在相亲广告里（'来找你的那个ta'），也被酷儿朋友们用作性别中立的表达——但这是对同一个字的截然不同的主张。不像'they'或瑞典语'hen'，中文只有'ta'或'他/她'。我想了解人们怎么使用它、用它意味着什么，以及它能否承载我们赋予它的重量。",
-      date: "Winter 2024"
+      date: "Spring 2026"
     },
   ]
 };
