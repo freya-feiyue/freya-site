@@ -36,7 +36,7 @@ const data = {
         status: "First Author | Project Thesis (Excellent)",
         statusCN: "第一作者｜项目论文（推荐优秀）",
         abstract: "This research examines the emergence of “gender reversal” short videos on social media, combining critical discourse analysis with semi-structure interviews, drawing on Bourdieu’s practice theory and framework of symbolic violence, Foucault’s discourse–power perspective, and Butler’s theory of gender performativity. It explores how audiences engage in the negotiation of gender discourse through viewing, interpreting, and reproducing “gender reversal” content. The findings show that “gender reversal” symbolically inverts social norms to render the latent and often hidden forms of everyday gendered violence visible. By producing “counter discourses,” these videos provide female audiences with emotional resonance and a sense of legitimacy for action, encouraging them to express dissatisfaction, voice objections, and challenge existing gender norms in daily interactions. However, the political efficacy of such narratives is constrained by the intrinsic tension of ironic structures and the limitations of the binary gender framework, restricting their capacity to fundamentally subvert gender hierarchies. The research argues that “gender reversal” functions not only as a strategic practice resisting patriarchal discourse but also as a critical lens through which the complexities of gendered power relations in the digital era can be examined. It offers an important window into the interplay among media, affective politics, and social structures, revealing how symbols, language, and performance mediate the negotiation of identity and power.",
-        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语”的方式为女性受众提供情感认同与行动正当本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语” 的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境，使得其在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
+        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语” 的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境，使得其在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
         keywords: "gender language; gender discourse; gender reversal; discursive power",
         keywordsCN: "性别语言；性别话语；性别倒转；话语权力"
       },
@@ -97,9 +97,9 @@ const data = {
       title: "President, Peer Health Education Society, UCASS",
       titleCN: "中国社会科学院大学青春健康同伴社社长",
       year: "2025 – Present",
-      desc: "Responsible for the overall management and recruitment training of the organization. Promote gender-friendly public discussion spaces on campus through peer education and interactive seminars. Planned and led participatory workshops on topics such as sexual and reproductive health and gender equality.",
-      descCN: "负责社团整体运营与招新培训，通过同伴教育与互动式研讨，在校园内推动性别友好的公共讨论空间。策划并主导以“性与生殖健康”“性别平等”为主题的参与式工作坊与同伴教育活动。",
-      link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkyNDU4OTY1MQ=="
+      desc: "Responsible for the overall management and recruitment training of the organization. Promote gender-friendly public discussion spaces on campus through peer education and interactive seminars. Planned and led participatory workshops and peer education activities on topics such as sexual and reproductive health and gender equality, facilitating public discussion and knowledge dissemination on gender issues among youth.",
+      descCN: "负责社团整体运营与招新培训，通过同伴教育与互动式研讨，在校园内推动性别友好的公共讨论空间。策划并主导以'性与生殖健康'和'性别平等'为主题的参与式工作坊与同伴教育活动，促进性别议题在青年群体中的公共讨论与知识传播。",
+      qr: "peer-health"
     },
     {
       id: 3,
@@ -120,52 +120,33 @@ const data = {
     }
   ],
 
-
-
-
+ 
   blog: {
     thinking: [
       {
         id: 1,
-        title: "“ta” as a Gendered / Gender-Neutral Signifier",
-        titleCN: "关于“ta”作为性别中立代词的思考",
-        en: `Chinese is a language where gender is not audible in speech but marked in writing. “Ta” (他/她/它) has been used in matchmaking ads (“come find your ta”) and by queer communities as a gender-neutral marker. Yet these uses point to very different claims on the same character. Unlike English “they” or Swedish “hen,” Chinese does not offer a widely stabilized gender-neutral pronoun beyond “ta” or “he/she.” I am interested in how people use it, what meanings they attach to it, and whether it can carry the kinds of political and affective weight we ask it to bear.`,
-        cn: `中文是一种在口语中无法直接听出性别，但在书写中明确标记性别的语言。“ta”（他/她/它）既被用在相亲广告中（“来找你的那个ta”），也被酷儿社群用作性别中立的表达，但这两种用法其实指向的是对同一个字的不同主张。与英语中的“they”或瑞典语中的“hen”不同，中文并没有一个被广泛稳定接受的性别中立代词，除了“ta”或“他/她”。我想理解人们如何使用它、它被赋予了什么意义，以及它是否能够承载我们期待它所承载的政治与情感重量。`
+        title: '"ta" as a Gendered / Gender-Neutral Signifier',
+        titleCN: "关于'ta'作为性别中立代词的思考",
+        en: `Chinese is a language where gender is not audible in speech but marked in writing. "Ta" has been used in matchmaking ads ("come find your ta") and by queer communities as a gender-neutral marker. Yet these uses point to very different claims on the same character. Unlike English "they" or Swedish "hen," Chinese does not offer a widely stabilized gender-neutral pronoun. I am interested in how people use it, what meanings they attach to it, and whether it can carry the kinds of political and affective weight we ask it to bear.`,
+        cn: `中文是一种在口语中无法直接听出性别，但在书写中明确标记性别的语言。"ta"既被用在相亲广告中（"来找你的那个ta"），也被酷儿社群用作性别中立的表达，但这两种用法其实指向的是对同一个字的不同主张。与英语中的"they"或瑞典语中的"hen"不同，中文并没有一个被广泛稳定接受的性别中立代词。我想理解人们如何使用它、它被赋予了什么意义，以及它是否能够承载我们期待它所承载的政治与情感重量。`
       },
       {
         id: 2,
         title: "Muscles as Gender Signifiers",
         titleCN: "作为性别符号的肌肉身体",
         en: `Muscularity in men is often read as masculinity—it requires little explanation. But when women engage in strength training and develop visible muscle, what is it read as? Threatening? Cool? Transgressive? Or another form of disciplined, regulated body? I am still unsure whether this belongs to the sociology of the body, sports sociology, or perhaps both.`,
-        cn: `男性展示肌肉通常会被直接读作“男性气质”，几乎不需要额外解释。但当女性进行力量训练并展示肌肉时，这种身体会被如何理解？是威胁？是“很酷”？是越轨？还是另一种被规训的身体？我还没有完全确定，这个问题究竟属于身体社会学、运动社会学，还是两者的交叉。`
+        cn: `男性展示肌肉通常会被直接读作"男性气质"，几乎不需要额外解释。但当女性进行力量训练并展示肌肉时，这种身体会被如何理解？是威胁？是"很酷"？是越轨？还是另一种被规训的身体？我还没有完全确定，这个问题究竟属于身体社会学、运动社会学，还是两者的交叉。`
       },
       {
         id: 3,
         title: "Women Smoking and Gendered Norms",
         titleCN: "女性吸烟与性别规范",
-        en: `Why is women’s smoking still widely perceived as deviant? What kinds of gendered norms and expectations are at work in producing this perception?`,
-        cn: `为什么女性吸烟仍然常常被视为一种“越轨行为”？这种观念背后，运作的是怎样的性别规范与社会期待？`
-      }
-    ],
-    essays: [
-      {
-        id: 101,
-        title: "Moments of Queerness",
-        titleCN: "我获得酷儿性的一些时刻",
-        date: "Dec 2025",
-        content: `2024冬天最低落的时候看了《正常人》剧集，读了英文原著后还是非常喜爱，尤其爱结尾这一段落：\n\n“She closes her eyes. He probably won’t come back, she thinks. Or he will, differently. What they have now they can never have back again. But for her the pain of loneliness will be nothing to the pain that she used to feel, of being unworthy. He brought her goodness like a gift and now it belongs to her. Meanwhile his life opens out before him in all directions at once. They’ve done a lot of good for each other. Really, she thinks, really. People can really change one another. You should go, she says. I’ll always be here. You know that.”\n\n今年冬天最低落的时候又开始读萨利鲁尼，先是很顺畅地读完了《美丽的世界，你在哪里》，过了一段时间才开始读她名声最大的《聊天记录》。鲁尼和《聊天记录》大火的时候我在念高中... 鲁尼被大家喜爱的原因之一在于她的“时代性”。鲁尼以极为真诚的方式描绘她所知道的生活，那些心理描写和小小的美丽的比喻都太像从日记本里摘出来的话，她捡起了我们无数人共有的精神碎片，精巧的拼凑后展现在大家面前。如果说happyend告诉我们“友谊是一种非常酷儿的关系”，那么鲁尼则给了我更多关于“酷儿关系”的更具体的想象，我从她的讲述中汲取到了我的后现代性和酷儿性。在《聊天记录》里，Frances和Bobbi曾经是恋人，分手后依然彼此依赖，后又断交、复合，以一种没有被命名的方式重新联结——或者如Nick所说的，以一种“非常关系无政府主义”的方式共同生活。她们关心、依赖对方，却不试图占有。 我非常嫉妒她们之间的关系，无论我们怎么称呼，我感受到一种探索QPR/关系无政府主义的强大的吸引力，我们可以定义或不定义和人们的关系，我会在交往中获得爱与很多的瞬间，我从人群中来，又回到自己的世界。《聊天记录》的结尾我也非常喜爱：“物和人在我周围转动，在模糊复杂的体系里占据不同位置，加入我现在不知道并永远都不会知道的系统。一个由事物与概念组成的复杂网路。要明白生活你需要先经历它。你不能总是做一个分析的人。”\n\n获得酷儿性的很多时刻发生在大半夜从北京城里打车回良乡的路途中，深夜的网约车上经常蹦出很多酷儿们的新思考，在许多conversations with friends中我突然发现我们都有了太多对于生活的态度的转变。某天在聊天中我突然讲道：我以前非常相信“命运”、“缘分”之类的东西，但我最近开始把它们从我的意志里剥离掉了。现在我觉得人与人的相遇就是很简单很random的事情，和人产生好感、喜欢、依恋，发生对另一个人的爱，接住爱也是很简单很random的事情。上天指派给我的唯一的事物就是我的身体，如果周遭也算的话，上天也为我指派了家庭、国籍和性别，分别定下了我的家境、教育、身处的社会和可能要遵循的规范。上天没有为我指派我的“命运”，我也不需要做上帝希望我做的事情来证明我是上帝会爱的选民。换句话说，我的酷儿性就是我可以摆脱所有我可能要遵循的规范，发展路径、性别规范、生育选择.... 任何事物对我来说都不是命定之事，我要用我的身体我的聪明勇敢去做我任何想做的事，去任何地方，结识任何人，给予并接受更多的爱、发生更多的事情，我行动，我拥有了一些联结，我播洒了一些爱，我收获了更多爱，我经过，我从一切中体会到更多的美妙。也许这是一种对于酷儿性的诠释？有评论这样告诉我，我不知道我是否对“酷儿性”进行了诠释，但也许对于这样的表达和分享，并将其命名为“酷儿性”，就是实践与诠释的过程。\n\n与酷儿伙伴们在一起的时刻，我实践、诠释、我也获得。身处酷儿社群中，我们彼此看见、拥抱、喝彩、相互联结并给予爱，在这样的瞬间中我们从个体变成被dumping into人群中的“人”，我们拥有对方，我们的酷儿性疯狂生长。\n\n2024年某日，我和伙伴们围坐在山顶的小木屋里，念着便利贴上的一句话：“thank u for being queer, thank u for being incredible u”。2025年冬天，我和伙伴们散落在城市四处，我想和大家一起复读purple小组的基本立场：“思辨的快感经常是独自的偷欢，但只有在伙伴中间我们才能成为同志”。\n\n2026对所有人一定都会是个好年:_)!`
-      },
-      {
-        id: 102,
-        title: "On Time: Chronos, Kairos, and Queer Time",
-        titleCN: "关于时间的思考：Chronos、Kairos、queertime",
-        date: "Jan 2026",
-        content: `随机波动最新一期节目以德国作家燕妮·埃彭贝克的新书《凯罗斯》为引，简要介绍了古希腊两种对立的时间观念——chronos和kairos，随后三位主播分享了过去一年的“凯罗斯时刻”或非均质时间体验。几日前听完后仍觉不过瘾，于是写下了这篇联想与思考。\n\nChronos：被规训的线性时间。Chrono- 是代表时间的词根，它通常涉及：事件的顺序、持续的时长和测量的刻度。\n\nChronos 来自希腊语 Khronos，是希腊神话中拟人化的时间，关于“我们如何量化地衡量岁月与生命”，代表线性的、可计量的流逝——钟表上的分钟、日历上的年月——过去、现在、未来这样连续不断的流逝。“All-devouring”（吞噬一切）和“inexorable”（不可阻挡）是他的核心标签。古希腊人认为，时间就像一条河流，会带走一切——青春、生命、记忆、王国。\n\n资本主义继承并强化了 Chronos 的逻辑。在这套体系里，时间是一种资源，必须被有效利用；生命是一条轨道，必须按时前进——我们在既定的轨道读书、考研、就业、成家、积累，似乎每一步都有它应当发生的时刻，我们被困在线性的社会时间里，稍有停滞，便是落后；倒退或循环，则近乎失败。\n\nChronos 是一种规训，它内化进我们对自身的批判，将我们拽进被时间之神吞噬的恐惧里——对“我还没有……”的焦虑，对间隔、休息、“今天什么都没做”的羞耻，都是 Chronos 的声音。\n\nKairos：充盈的瞬间。与Chronos相对，希腊语还有另一个词：Kairos，指“确切或关键的时间”。\n\nKairos是希腊希腊神话中的机遇之神。他双脚长有翅膀，四处奔走；但如果你足够留心，就能抓住他光秃后脑勺上垂着的那一绺长发。\n\nKaiors不是均匀流逝的，而是“充盈的瞬间”——那些质感不同、无法被均分的时刻。正因为Kairos 是非均质的、有质地和密度的，它不能被计划，只能被遭遇。有些瞬间浓缩了无数时间，有些漫长的日子却几乎是空的。\n\nKairos 的时间观抵抗“时间是容器”的隐喻，主张时间是事件本身，是那个当下的质地与密度——读到让自己震动的理论是 kairos，同伴之间某个无需言说的对视是 kairos，那些让我感到“爱让人变成透明的泡泡 心透明澄净 身体轻盈随意在空中飞动”的时刻是 kairos。这些瞬间或许发生在线性时间的缝隙里，它们无法被纳入人生主线的进度条，却是生命里最真实的部分。\n\n酷儿时间：一种生存的伦理姿态\n\nJack Halberstam 认为酷儿时间（queer time）是一种拒绝按照异性恋-资本主义规范排布生命的时序。\n\n异性恋规范的生命叙事以一组被赞颂的里程碑为标志——出生、童年、青春期、成年、婚姻、生育、为人父母、纪念日、退休与死亡——并要求人以"适当"的速度穿过每个阶段。许多人将这种“生育时间”内化为理所应当。\n\n但酷儿性可以是一种时间上的偏离——“奇异（queer）时间性、想象性的生活日程，以及偏心的经济实践”。当一个人的生命以这种方式展开，本身就构成对规范秩序的威胁。\n\nFreeman 给了这套规训一个更精准的名字：“时间规范性”（chrononormativity）——即日程、日历、时区这些安排如何"看起来像是身体的事实"——我们以为朝九晚五是自然的，以为停滞是病态的，但这不过是历史上特定权力体制内化进身体的结果。\n\n当这种规训扩展到整个人口，就成了“时间生命政治”（chronobiopolitics）：国家通过出生登记、婚姻许可、死亡登记，定义什么叫“拥有一种生活”。没有登记栏位的生活——停滞的、绕路的、无产出的——在这套框架里根本不算存在。\n\n而在“斜向地生活”中，我们看到酷儿潜能：迂回、延宕、不同步、停滞，不是失败，而是瓦解规范性逻辑的方式，酷儿们不仅能动摇“正统的历史”，也动摇出柜、发展、家庭、谱系、身份、解放、现代性，以及进步与运动的逻辑。酷儿时间让我们能够“穿行于时间，并与时间同行”——不按常识理解当下，让过去与未来以意想不到的方式互相渗透。\n\n如果说 chronos 是规范，kairos 是裂缝，那么酷儿时间就是把裂缝扩展成一种生活方式的伦理选择。不是偶然地逃脱线性时间，而是有意识地拒绝它，并在拒绝中建立另一套评判生命价值的标准。\n\n酷儿性与不同步性相连，为与“时间规范性”、与“再生产的未来性”、与“再生产时间”、与“线性时间”，或与“美好生活”等规范性框架不同步。停滞、迂回、延宕、循环，不是失败，而是一种与时间规范性不同步的存在方式。这种不同步，正是抵抗的形状。\n\n对于我，对于大家，我想我们不要玩任何人的游戏，拒绝进入任何一套话语体系，拒绝成为任何一套宏大叙事的注脚。\n\n别把生活当作一场需要排练的演出，不要等待变厉害了才去生活。去碰撞，去遭遇，去让生命流经你——力量不是准备的结果，而是生活完美的结晶。\n\n我拒绝活在资本主义的线性时间里。去停滞，去倒退，去打结。允许自己愚蠢，允许自己毫无产出，允许自己仅仅是作为一个肉身存在，只是享受生命和一切不存在的意义。\n\n国家通过出生登记、婚姻许可、死亡登记来定义“拥有一种生活”的含义。但在那些表格的栏位之外，在那些无法被归档的时刻里——当我们无所事事，当我们只是单纯地呼吸与爱——这没有里程碑、没有“岸”、没有证书的日子，它正是时间生命政治视野之外的生活。它正是酷儿时间。\n\n对于抵抗，对于瓦解，对于时间，不向虚无索要意义，不向未来预支当下，只在乎当下——唯有爱，以及我们身体切实的痛痒与温热——这无意义的物质性，才是唯一的永恒。`
+        en: `Why is women's smoking still widely perceived as deviant? What kinds of gendered norms and expectations are at work in producing this perception?`,
+        cn: `为什么女性吸烟仍然常常被视为一种"越轨行为"？这种观念背后，运作的是怎样的性别规范与社会期待？`
       }
     ]
   },
-
-
+ 
   cv: {
     en: [
       { school: "University of Chinese Academy of Social Sciences", major: "BA Sociology", period: "2022 ~ 2027" },
@@ -177,6 +158,30 @@ const data = {
     ]
   }
 };
+ 
+// --- 二维码弹窗 ---
+function QRModal({ src, title, onClose }) {
+  return (
+    <div onClick={onClose} style={{
+      position: "fixed", inset: 0, zIndex: 100,
+      background: "rgba(0,0,0,0.5)",
+      display: "flex", alignItems: "center", justifyContent: "center"
+    }}>
+      <div onClick={e => e.stopPropagation()} style={{
+        background: "#fff", borderRadius: 8, padding: "2rem",
+        display: "flex", flexDirection: "column", alignItems: "center", gap: "1rem",
+        maxWidth: 320, width: "90%"
+      }}>
+        <p style={{ fontSize: "0.85rem", color: "#666", margin: 0, textAlign: "center" }}>{title}</p>
+        <img src={src} alt="QR Code" style={{ width: 220, height: 220, objectFit: "contain" }} />
+        <button onClick={onClose} style={{
+          background: "none", border: "1px solid #ddd", borderRadius: 4,
+          padding: "6px 20px", cursor: "pointer", fontSize: "0.85rem", color: "#666"
+        }}>Close</button>
+      </div>
+    </div>
+  );
+}
 
 function FlagBackground() {
   return (
@@ -221,11 +226,11 @@ function PageAbout({ lang }) {
             {lang === "cn" ? data.pronounsCN : data.pronouns}
           </p>
         </div>
-        <div style={{ flex: "0 0 200px", margin: "0 auto" }}>
-          <div style={{ width: "150px", height: "199px", border: "5px solid white", boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}>
+        <div style={{ flex: "0 0 120px", margin: "0 auto" }}>
+          <div style={{ width: "120px", height: "160px", border: "5px solid white", boxShadow: "0 10px 30px rgba(0,0,0,0.06)" }}>
             <img src="/profile.jpg" alt="Freya Tang" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
           </div>
-          <p style={{ fontSize: "0.85rem", color: theme.colorDetail, marginTop: "0.6rem", textAlign: "center", fontStyle: "italic", fontFamily: theme.fontSerif }}>Beijing, 2026</p>
+          <p style={{ fontSize: "0.85rem", color: theme.colorDetail, marginTop: "0.6rem", textAlign: "center", fontStyle: "italic", fontFamily: theme.fontSerif }}>Beijing,2026</p>
         </div>
       </div>
       <div style={{ maxWidth: "850px" }}>
@@ -269,17 +274,22 @@ function PageResearch({ lang }) {
 }
 
 function PageEngagement({ lang }) {
+  const [qrModal, setQrModal] = useState(null);
   return (
     <div style={{ maxWidth: 850 }}>
+      {qrModal === "peer-health" && <QRModal src={qrPeerHealth} title={lang === "cn" ? "青春健康同伴社公众号" : "Peer Health Education Society WeChat"} onClose={() => setQrModal(null)} />}
       {data.engagement.map(item => (
         <div key={item.id} style={{ marginBottom: "2rem", borderBottom: theme.border, paddingBottom: "1.5rem" }}>
           <h4 style={{ fontFamily: theme.fontSerif, fontSize: "1.35rem", margin: "0 0 0.5rem", fontWeight: 500 }}>{lang === "cn" ? item.titleCN : item.title}</h4>
           <p style={{ fontSize: "11px", color: theme.colorDetail, textTransform: "uppercase", marginBottom: "0.8rem" }}>{item.year}</p>
           <p style={{ fontSize: "1rem", lineHeight: 1.7, color: theme.colorSub, textAlign: "justify" }}>{lang === "cn" ? item.descCN : item.desc}</p>
-          {item.link && (
-            <a href={item.link} target="_blank" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline", display: "inline-block", marginTop: "0.5rem" }}>
-              {lang === "cn" ? "访问链接 ↗" : "Visit Link ↗"}
-            </a>
+          {item.link && <a href={item.link} target="_blank" rel="noreferrer" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline", display: "inline-block", marginTop: "0.5rem" }}>{lang === "cn" ? "访问链接 ↗" : "Visit Link ↗"}</a>}
+          {item.qr && (
+            <button onClick={() => setQrModal(item.qr)} style={{
+              marginTop: "0.5rem", display: "inline-block", background: "none",
+              border: "1px solid rgba(0,0,0,0.2)", borderRadius: 4, padding: "4px 14px",
+              cursor: "pointer", fontSize: "0.85rem", color: "#333"
+            }}>{lang === "cn" ? "查看公众号二维码" : "WeChat QR Code"}</button>
           )}
         </div>
       ))}
@@ -288,9 +298,11 @@ function PageEngagement({ lang }) {
 }
 
 function PageBlog({ lang }) {
-  const [openEssay, setOpenEssay] = useState(null);
+  const [qrModal, setQrModal] = useState(false);
   return (
     <div style={{ maxWidth: 850 }}>
+      {qrModal && <QRModal src={qrXinan} title={lang === "cn" ? "西南美味蘑菇公众号" : "WeChat: 西南美味蘑菇"} onClose={() => setQrModal(false)} />}
+ 
       <section style={{ marginBottom: "4rem" }}>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>{lang === "cn" ? "思考" : "Thinking"}</h3>
         <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "尚未定论的、正在形成的——我持续探索中的问题与研究想法。" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
@@ -301,25 +313,30 @@ function PageBlog({ lang }) {
           </div>
         ))}
       </section>
+ 
       <section>
-        <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "2rem" }}>{lang === "cn" ? "写作" : "Essays"}</h3>
-        {data.blog.essays.map(essay => (
-          <div key={essay.id} style={{ marginBottom: "1.5rem", borderBottom: "1px dashed #eee", paddingBottom: "1.5rem" }}>
-            <h4 onClick={() => setOpenEssay(openEssay === essay.id ? null : essay.id)} style={{ cursor: "pointer", fontFamily: theme.fontSerif, fontSize: "1.4rem", fontWeight: 400, color: openEssay === essay.id ? "#000" : "#555" }}>
-              {lang === "cn" ? essay.titleCN : essay.title} {openEssay === essay.id ? "↑" : "↓"}
-            </h4>
-            <p style={{ fontSize: 11, color: "#999", marginTop: 4 }}>{essay.date}</p>
-            {openEssay === essay.id && (
-              <div style={{ marginTop: "1.5rem", fontSize: "1.05rem", lineHeight: 1.9, color: theme.colorText, whiteSpace: "pre-wrap", animation: "fadeIn 0.4s ease", textAlign: "justify" }}>
-                {essay.content}
-              </div>
-            )}
-          </div>
-        ))}
+        <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>{lang === "cn" ? "写作" : "Essays"}</h3>
+        <p style={{ fontSize: "1rem", lineHeight: 1.8, color: theme.colorSub, marginBottom: "2rem" }}>
+          {lang === "cn" ? "我的写作发布在两个平台：微信公众号'西南美味蘑菇'与 Substack。" : "My essays are published on two platforms: WeChat (西南美味蘑菇) and Substack."}
+        </p>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
+          <button onClick={() => setQrModal(true)} style={{
+            background: "#fff", border: "1px solid rgba(0,0,0,0.15)", borderRadius: 6,
+            padding: "0.8rem 1.5rem", cursor: "pointer", fontSize: "0.95rem",
+            color: "#1a1a1a", fontFamily: theme.fontSerif, boxShadow: "0 2px 8px rgba(0,0,0,0.05)"
+          }}>{lang === "cn" ? "微信公众号 · 西南美味蘑菇 →" : "WeChat · 西南美味蘑菇 →"}</button>
+          <a href="https://substack.com/@inciduntcoruscus719490/notes?utm_campaign=profile&utm_medium=profile-page" target="_blank" rel="noreferrer" style={{
+            background: "#fff", border: "1px solid rgba(0,0,0,0.15)", borderRadius: 6,
+            padding: "0.8rem 1.5rem", fontSize: "0.95rem", color: "#1a1a1a",
+            fontFamily: theme.fontSerif, textDecoration: "none",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.05)", display: "inline-flex", alignItems: "center"
+          }}>Substack →</a>
+        </div>
       </section>
     </div>
   );
 }
+ 
 
 // --- App 主组件 ---
 
