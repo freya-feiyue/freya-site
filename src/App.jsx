@@ -160,8 +160,9 @@ const data = {
   }
 };
  
-const qrPeerHealth = "/path/to/qr-peer-health.jpg"; // 请替换为你实际的图片路径
-const qrXinan = "/path/to/qr-xinan.jpg";            // 请替换为你实际的图片路径
+// --- 修正后的图片路径 ---
+const qrPeerHealth = "/qr-peer-health.jpg"; // 如果你的文件名叫 qr-peer-health.jpg
+const qrXinan = "/qr-xinan.jpg";            // 如果你的文件名叫 qr-xinan.jpg
 
 // --- 二维码弹窗 ---
 function QRModal({ src, title, onClose }) {
