@@ -18,6 +18,7 @@ const data = {
   pronounsCN: "'他'以外的任何代词 · 北京",
   email: "feiyue.tang@outlook.com",
 
+  
   about: {
     en: `I am an undergraduate sociology student at the University of Chinese Academy of Social Sciences, with a focus on gender, sexuality, and queer lives in contemporary China. My research interests lie at the intersection of gender sociology, queer theory, and sociolinguistics, with particular attention to the relationship between language, power, and identity.\n\nI am currently interested in feminist discursive activism in digital spaces in China, examining how individuals are influenced by online feminist movements, how they come to recognize gender-based violence embedded in language, and how they develop strategic forms of feminist expression and intervention.\n\nI am also interested in the question of queer "unspeakability" in the Chinese language, particularly the possibilities and social implications of gender-neutral pronouns and gender-inclusive linguistic practices.\n\nBeyond academic research, I am actively engaged in Chinese queer communities and am exploring modes of public sociology, seeking to bridge academic inquiry with broader public conversations.\n\nI am currently preparing applications for graduate study abroad (Fall 2027), with the long-term goal of pursuing a PhD in sociology of gender.`,
     cn: `我是中国社会科学院大学社会学本科生，关注当代中国语境下的性别、性与酷儿生活。我的研究兴趣位于性别社会学、酷儿理论与社会语言学的交叉领域，尤其关注语言、权力与身份之间的关系。\n\n目前，我主要关注中国女性主义中的网络话语行动主义，探讨个体如何在数字空间中受到女性主义思潮的影响，识别语言中的性别暴力，并发展出具有策略性的表达与回应方式。同时，我也关注中文语境中酷儿的"失语"问题，尤其是性别中立代词与性别包容性语言的可能性及其社会意义。\n\n学术研究之外，我也是中文酷儿社群的积极参与者，并在持续探索公共社会学的表达路径，尝试在学术研究与公共讨论之间建立连接。\n\n我目前正在准备2027年秋季的海外研究生申请，长期目标是攻读性别社会学方向的博士学位。`
@@ -33,8 +34,8 @@ const data = {
         id: 1,
         title: "Gendered Power Relations in Linguistic Practice: An Analysis of “Gender Reversal” Short Videos",
         titleCN: "语言实践中的性别权力关系 ——基于“性别倒转”类短视频的考察",
-        status: "First Author | Project Thesis (Excellent)",
-        statusCN: "第一作者｜项目论文（推荐优秀）",
+        status: "First Author | Project Thesis (2025,Excellent)",
+        statusCN: "第一作者｜项目论文（2025,推荐优秀）",
         abstract: "This research examines the emergence of “gender reversal” short videos on social media, combining critical discourse analysis with semi-structure interviews, drawing on Bourdieu’s practice theory and framework of symbolic violence, Foucault’s discourse–power perspective, and Butler’s theory of gender performativity. It explores how audiences engage in the negotiation of gender discourse through viewing, interpreting, and reproducing “gender reversal” content. The findings show that “gender reversal” symbolically inverts social norms to render the latent and often hidden forms of everyday gendered violence visible. By producing “counter discourses,” these videos provide female audiences with emotional resonance and a sense of legitimacy for action, encouraging them to express dissatisfaction, voice objections, and challenge existing gender norms in daily interactions. However, the political efficacy of such narratives is constrained by the intrinsic tension of ironic structures and the limitations of the binary gender framework, restricting their capacity to fundamentally subvert gender hierarchies. The research argues that “gender reversal” functions not only as a strategic practice resisting patriarchal discourse but also as a critical lens through which the complexities of gendered power relations in the digital era can be examined. It offers an important window into the interplay among media, affective politics, and social structures, revealing how symbols, language, and performance mediate the negotiation of identity and power.",
         abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语” 的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境，使得其在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
         keywords: "gender language; gender discourse; gender reversal; discursive power",
@@ -159,6 +160,10 @@ const data = {
   }
 };
  
+  // 在文件顶部的 data 定义之后添加
+  const qrPeerHealth = "/qr-peer-health.jpg"; // 请确保 public 目录下有这些文件
+  const qrXinan = "/qr-xinan.jpg";
+
 // --- 二维码弹窗 ---
 function QRModal({ src, title, onClose }) {
   return (
@@ -277,19 +282,33 @@ function PageEngagement({ lang }) {
   const [qrModal, setQrModal] = useState(null);
   return (
     <div style={{ maxWidth: 850 }}>
-      {qrModal === "peer-health" && <QRModal src={qrPeerHealth} title={lang === "cn" ? "青春健康同伴社公众号" : "Peer Health Education Society WeChat"} onClose={() => setQrModal(null)} />}
+      {qrModal === "peer-health" && (
+        <QRModal 
+          src={qrPeerHealth} 
+          title={lang === "cn" ? "青春健康同伴社公众号" : "Peer Health Education Society WeChat"} 
+          onClose={() => setQrModal(null)} 
+        />
+      )}
       {data.engagement.map(item => (
         <div key={item.id} style={{ marginBottom: "2rem", borderBottom: theme.border, paddingBottom: "1.5rem" }}>
           <h4 style={{ fontFamily: theme.fontSerif, fontSize: "1.35rem", margin: "0 0 0.5rem", fontWeight: 500 }}>{lang === "cn" ? item.titleCN : item.title}</h4>
           <p style={{ fontSize: "11px", color: theme.colorDetail, textTransform: "uppercase", marginBottom: "0.8rem" }}>{item.year}</p>
           <p style={{ fontSize: "1rem", lineHeight: 1.7, color: theme.colorSub, textAlign: "justify" }}>{lang === "cn" ? item.descCN : item.desc}</p>
-          {item.link && <a href={item.link} target="_blank" rel="noreferrer" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline", display: "inline-block", marginTop: "0.5rem" }}>{lang === "cn" ? "访问链接 ↗" : "Visit Link ↗"}</a>}
+          
+          {item.link && (
+            <a href={item.link} target="_blank" rel="noreferrer" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline", display: "inline-block", marginTop: "0.5rem" }}>
+              {lang === "cn" ? "访问链接 ↗" : "Visit Link ↗"}
+            </a>
+          )}
+          
           {item.qr && (
             <button onClick={() => setQrModal(item.qr)} style={{
-              marginTop: "0.5rem", display: "inline-block", background: "none",
-              border: "1px solid rgba(0,0,0,0.2)", borderRadius: 4, padding: "4px 14px",
-              cursor: "pointer", fontSize: "0.85rem", color: "#333"
-            }}>{lang === "cn" ? "查看公众号二维码" : "WeChat QR Code"}</button>
+              background: "none", border: "none", cursor: "pointer",
+              fontSize: "0.85rem", color: "#000", textDecoration: "underline",
+              padding: 0, marginTop: "0.5rem", display: "block"
+            }}>
+              {lang === "cn" ? "查看公众号二维码 ↗" : "View WeChat QR Code ↗"}
+            </button>
           )}
         </div>
       ))}
@@ -303,7 +322,22 @@ function PageBlog({ lang }) {
     <div style={{ maxWidth: 850 }}>
       {qrModal && <QRModal src={qrXinan} title={lang === "cn" ? "西南美味蘑菇公众号" : "WeChat: 西南美味蘑菇"} onClose={() => setQrModal(false)} />}
  
+      {/* 1. 先放 Essays */}
       <section style={{ marginBottom: "4rem" }}>
+        <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "2rem" }}>{lang === "cn" ? "写作" : "Essays"}</h3>
+        <p style={{ fontSize: "1rem", lineHeight: 1.8, color: theme.colorSub, marginBottom: "2rem" }}>
+          {lang === "cn" ? "我的写作发布在两个平台：微信公众号'西南美味蘑菇'与 Substack。" : "My essays are published on two platforms: WeChat (西南美味蘑菇) and Substack."}
+        </p>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
+          <button onClick={() => setQrModal(true)} style={{ background: "none", border: "none", cursor: "pointer", textDecoration: "underline", fontSize: "0.95rem", padding: 0, color: "#000" }}>
+            {lang === "cn" ? "微信公众号 · 西南美味蘑菇 →" : "WeChat · 西南美味蘑菇 →"}
+          </button>
+          <a href="https://substack.com/@inciduntcoruscus719490/notes" target="_blank" rel="noreferrer" style={{ textDecoration: "underline", color: "#000", fontSize: "0.95rem" }}>Substack →</a>
+        </div>
+      </section>
+
+      {/* 2. 再放 Thinking */}
+      <section>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>{lang === "cn" ? "思考" : "Thinking"}</h3>
         <p style={{ fontStyle: "italic", color: theme.colorDetail, marginBottom: "2rem" }}>{lang === "cn" ? "尚未定论的、正在形成的——我持续探索中的问题与研究想法。" : "Unsettled questions, ideas in formation—things I keep returning to."}</p>
         {data.blog.thinking.map(t => (
@@ -312,26 +346,6 @@ function PageBlog({ lang }) {
             <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: theme.colorSub, textAlign: "justify" }}>{lang === "cn" ? t.cn : t.en}</p>
           </div>
         ))}
-      </section>
- 
-      <section>
-        <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "1.5rem" }}>{lang === "cn" ? "写作" : "Essays"}</h3>
-        <p style={{ fontSize: "1rem", lineHeight: 1.8, color: theme.colorSub, marginBottom: "2rem" }}>
-          {lang === "cn" ? "我的写作发布在两个平台：微信公众号'西南美味蘑菇'与 Substack。" : "My essays are published on two platforms: WeChat (西南美味蘑菇) and Substack."}
-        </p>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
-          <button onClick={() => setQrModal(true)} style={{
-            background: "#fff", border: "1px solid rgba(0,0,0,0.15)", borderRadius: 6,
-            padding: "0.8rem 1.5rem", cursor: "pointer", fontSize: "0.95rem",
-            color: "#1a1a1a", fontFamily: theme.fontSerif, boxShadow: "0 2px 8px rgba(0,0,0,0.05)"
-          }}>{lang === "cn" ? "微信公众号 · 西南美味蘑菇 →" : "WeChat · 西南美味蘑菇 →"}</button>
-          <a href="https://substack.com/@inciduntcoruscus719490/notes?utm_campaign=profile&utm_medium=profile-page" target="_blank" rel="noreferrer" style={{
-            background: "#fff", border: "1px solid rgba(0,0,0,0.15)", borderRadius: 6,
-            padding: "0.8rem 1.5rem", fontSize: "0.95rem", color: "#1a1a1a",
-            fontFamily: theme.fontSerif, textDecoration: "none",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.05)", display: "inline-flex", alignItems: "center"
-          }}>Substack →</a>
-        </div>
       </section>
     </div>
   );
