@@ -160,9 +160,7 @@ const data = {
   }
 };
  
-  // 在文件顶部的 data 定义之后添加
-  const qrPeerHealth = "/qr-peer-health.jpg"; // 请确保 public 目录下有这些文件
-  const qrXinan = "/qr-xinan.jpg";
+
 
 // --- 二维码弹窗 ---
 function QRModal({ src, title, onClose }) {
@@ -326,13 +324,22 @@ function PageBlog({ lang }) {
       <section style={{ marginBottom: "4rem" }}>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "2rem" }}>{lang === "cn" ? "写作" : "Essays"}</h3>
         <p style={{ fontSize: "1rem", lineHeight: 1.8, color: theme.colorSub, marginBottom: "2rem" }}>
-          {lang === "cn" ? "我的写作发布在两个平台：微信公众号'西南美味蘑菇'与 Substack。" : "My essays are published on two platforms: WeChat (西南美味蘑菇) and Substack."}
+          {lang === "cn" ? "我在两个平台更新写作：微信公众号'西南美味蘑菇'与 Substack。" : "My essays can be found on two platforms: WeChat (西南美味蘑菇) and Substack."}
         </p>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem" }}>
-          <button onClick={() => setQrModal(true)} style={{ background: "none", border: "none", cursor: "pointer", textDecoration: "underline", fontSize: "0.95rem", padding: 0, color: "#000" }}>
-            {lang === "cn" ? "微信公众号 · 西南美味蘑菇 →" : "WeChat · 西南美味蘑菇 →"}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem", alignItems: "center" }}>
+          <button onClick={() => setQrModal(true)} style={{ 
+            background: "none", border: "none", cursor: "pointer", 
+            textDecoration: "underline", fontSize: "0.95rem", padding: 0, 
+            color: "#000", fontFamily: theme.fontSerif 
+          }}>
+            {lang === "cn" ? "微信公众号 · 西南美味蘑菇 ↗" : "WeChat · 西南美味蘑菇 ↗"}
           </button>
-          <a href="https://substack.com/@inciduntcoruscus719490/notes" target="_blank" rel="noreferrer" style={{ textDecoration: "underline", color: "#000", fontSize: "0.95rem" }}>Substack →</a>
+          <a href="https://substack.com/@inciduntcoruscus719490/notes" target="_blank" rel="noreferrer" style={{ 
+            textDecoration: "underline", color: "#000", fontSize: "0.95rem", 
+            fontFamily: theme.fontSerif 
+          }}>
+            Substack · freya-feiyue ↗
+          </a>
         </div>
       </section>
 
@@ -350,7 +357,6 @@ function PageBlog({ lang }) {
     </div>
   );
 }
- 
 
 // --- App 主组件 ---
 
@@ -426,7 +432,7 @@ export default function App() {
                     ? "欢迎在北京约一杯咖啡面谈，或通过邮件联系我。\n我非常欢迎与大家交流关于社会学、性与性别、酷儿生活、公共社会学或研究生申请等相关话题，也欢迎任何潜在的合作机会，或者就你正在思考的问题展开对话。"
                     : "I am open to coffee chats in Beijing, or feel free to reach out via email.\nI welcome conversations on sociology, gender and sexuality, queer life, public sociology, graduate study applications, or any ideas you are currently thinking through. I am also open to potential collaborations, or simply engaging in dialogue around questions that matter to you."}
                 </p>
-                <a href={`mailto:${data.email}`} style={{ textDecoration: "none", color: "#000", borderBottom: "2px solid #000", paddingBottom: 4, fontSize: "1.4rem", fontFamily: theme.fontSerif }}>{data.email} ↗</a>
+                <a href={`mailto:${data.email}`} style={{ textDecoration: "none", color: "#000", borderBottom: "1px solid #000", paddingBottom: 2, fontSize: "1.1rem", fontFamily: theme.fontSerif }}>{data.email} ↗</a>
               </div>
             )}
           </div>
@@ -439,3 +445,4 @@ export default function App() {
     </div>
   );
 }
+
