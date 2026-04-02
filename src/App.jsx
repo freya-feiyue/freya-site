@@ -160,7 +160,8 @@ const data = {
   }
 };
  
-
+const qrPeerHealth = "/path/to/qr-peer-health.jpg"; // 请替换为你实际的图片路径
+const qrXinan = "/path/to/qr-xinan.jpg";            // 请替换为你实际的图片路径
 
 // --- 二维码弹窗 ---
 function QRModal({ src, title, onClose }) {
@@ -293,21 +294,26 @@ function PageEngagement({ lang }) {
           <p style={{ fontSize: "11px", color: theme.colorDetail, textTransform: "uppercase", marginBottom: "0.8rem" }}>{item.year}</p>
           <p style={{ fontSize: "1rem", lineHeight: 1.7, color: theme.colorSub, textAlign: "justify" }}>{lang === "cn" ? item.descCN : item.desc}</p>
           
-          {item.link && (
-            <a href={item.link} target="_blank" rel="noreferrer" style={{ fontSize: "0.85rem", color: "#000", textDecoration: "underline", display: "inline-block", marginTop: "0.5rem" }}>
-              {lang === "cn" ? "访问链接 ↗" : "Visit Link ↗"}
-            </a>
-          )}
-          
-          {item.qr && (
-            <button onClick={() => setQrModal(item.qr)} style={{
-              background: "none", border: "none", cursor: "pointer",
-              fontSize: "0.85rem", color: "#000", textDecoration: "underline",
-              padding: 0, marginTop: "0.5rem", display: "block"
-            }}>
-              {lang === "cn" ? "查看公众号二维码 ↗" : "View WeChat QR Code ↗"}
-            </button>
-          )}
+          <div style={{ display: "flex", gap: "1.5rem", marginTop: "0.5rem" }}>
+            {item.link && (
+              <a href={item.link} target="_blank" rel="noreferrer" style={{ 
+                fontSize: "0.85rem", color: "#000", textDecoration: "underline", 
+                fontFamily: theme.fontSerif 
+              }}>
+                {lang === "cn" ? "访问链接 ↗" : "Visit Link ↗"}
+              </a>
+            )}
+            
+            {item.qr && (
+              <button onClick={() => setQrModal(item.qr)} style={{
+                background: "none", border: "none", cursor: "pointer",
+                fontSize: "0.85rem", color: "#000", textDecoration: "underline",
+                padding: 0, fontFamily: theme.fontSerif
+              }}>
+                {lang === "cn" ? "查看公众号二维码 ↗" : "View WeChat QR Code ↗"}
+              </button>
+            )}
+          </div>
         </div>
       ))}
     </div>
@@ -324,7 +330,7 @@ function PageBlog({ lang }) {
       <section style={{ marginBottom: "4rem" }}>
         <h3 style={{ fontFamily: theme.fontSerif, fontSize: "1.8rem", borderBottom: "1px solid #ddd", paddingBottom: "0.5rem", marginBottom: "2rem" }}>{lang === "cn" ? "写作" : "Essays"}</h3>
         <p style={{ fontSize: "1rem", lineHeight: 1.8, color: theme.colorSub, marginBottom: "2rem" }}>
-          {lang === "cn" ? "我在两个平台更新写作：微信公众号'西南美味蘑菇'与 Substack。" : "My essays can be found on two platforms: WeChat (西南美味蘑菇) and Substack."}
+          {lang === "cn" ? "我在两个平台更新写作：微信公众号'西南美味蘑菇'与 Substack'freya-feiyue'。" : "My essays can be found on two platforms: WeChat (西南美味蘑菇) and Substack (freya-feiyue)."}
         </p>
         <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem", alignItems: "center" }}>
           <button onClick={() => setQrModal(true)} style={{ 
