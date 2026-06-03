@@ -20,7 +20,7 @@ const data = {
 about: {
 
 en: `I am an undergraduate sociology student at the University of Chinese Academy of Social Sciences, with a focus on gender, sexuality, and queer lives in contemporary China. \n\nI am currently interested in the political efficacy and structural limits of gender parody as a counter-discursive practice in China's digital spaces, examining how the symbolic inversion of patriarchal everyday language produces moments of denaturalization, and why these moments of recognition so rarely translate into sustained practice.\n\nI am also interested in the question of queer "unspeakability" in the Chinese language, particularly the possibilities and social implications of gender-neutral pronouns and gender-inclusive linguistic practices.\n\nBeyond academic research, I am actively engaged in Chinese queer communities and am exploring modes of public sociology, seeking to bridge academic inquiry with broader public conversations.`,
-cn: `我是中国社会科学院大学社会学本科生，关注当代中国语境下的性与性别与酷儿生活。我\n\n我目前的研究关注中国数字空间中性别戏仿作为反向话语实践的政治效力与结构性限度，探讨父权制日常话语的符号性逆转如何制造去自然化的认知瞬间，以及这些认知断裂为何难以转化为持续的实践。同时，我也关注中文语境中酷儿的“失语”问题，尤其是性别中立代词与性别包容性语言的可能性及其社会意义。\n\n学术研究之外，我也是中文酷儿社群的积极参与者，并在持续探索公共社会学的表达路径，尝试在学术研究与公共讨论之间建立连接。`
+cn: `我是中国社会科学院大学社会学本科生，关注当代中国语境下的性与性别与酷儿生活。\n\n我目前的研究关注中国数字空间中性别戏仿作为反向话语实践的政治效力与结构性限度，探讨父权制日常话语的符号性逆转如何制造去自然化的认知瞬间，以及这些认知断裂为何难以转化为持续的实践。同时，我也关注中文语境中酷儿的“失语”问题，尤其是性别中立代词与性别包容性语言的可能性及其社会意义。\n\n学术研究之外，我也是中文酷儿社群的积极参与者，并在持续探索公共社会学的表达路径，尝试在学术研究与公共讨论之间建立连接。`
 },
 
   
