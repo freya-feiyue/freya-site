@@ -12,17 +12,18 @@ const theme = {
 const data = {
   name: "freya feiyue tang",
   nameCN: "唐菲玥",
-  tagline: "Gender & Sexuality · Queer Theory · Language & Power",
-  taglineCN: "性别与性 · 酷儿理论 · 语言与权力",
   pronouns: "Any pronouns except 'he/him' · Beijing",
   pronounsCN: "'他'以外的任何代词 · 北京",
   email: "feiyue.tang@outlook.com",
 
   
-  about: {
-    en: `I am an undergraduate sociology student at the University of Chinese Academy of Social Sciences, with a focus on gender, sexuality, and queer lives in contemporary China. My research interests lie at the intersection of gender sociology, queer theory, and sociolinguistics, with particular attention to the relationship between language, power, and identity.\n\nI am currently interested in feminist discursive activism in digital spaces in China, examining how individuals are influenced by online feminist movements, how they come to recognize gender-based violence embedded in language, and how they develop strategic forms of feminist expression and intervention.\n\nI am also interested in the question of queer "unspeakability" in the Chinese language, particularly the possibilities and social implications of gender-neutral pronouns and gender-inclusive linguistic practices.\n\nBeyond academic research, I am actively engaged in Chinese queer communities and am exploring modes of public sociology, seeking to bridge academic inquiry with broader public conversations.\n\nI am currently preparing applications for graduate study abroad (Fall 2027), with the long-term goal of pursuing a PhD in sociology of gender.`,
-    cn: `我是中国社会科学院大学社会学本科生，关注当代中国语境下的性别、性与酷儿生活。我的研究兴趣位于性别社会学、酷儿理论与社会语言学的交叉领域，尤其关注语言、权力与身份之间的关系。\n\n目前，我主要关注中国女性主义中的网络话语行动主义，探讨个体如何在数字空间中受到女性主义思潮的影响，识别语言中的性别暴力，并发展出具有策略性的表达与回应方式。同时，我也关注中文语境中酷儿的"失语"问题，尤其是性别中立代词与性别包容性语言的可能性及其社会意义。\n\n学术研究之外，我也是中文酷儿社群的积极参与者，并在持续探索公共社会学的表达路径，尝试在学术研究与公共讨论之间建立连接。\n\n我目前正在准备2027年秋季的海外研究生申请，长期目标是攻读性别社会学方向的博士学位。`
-  },
+about: {
+
+en: `I am an undergraduate sociology student at the University of Chinese Academy of Social Sciences, with a focus on gender, sexuality, and queer lives in contemporary China. \n\nI am currently interested in the political efficacy and structural limits of gender parody as a counter-discursive practice in China's digital spaces, examining how the symbolic inversion of patriarchal everyday language produces moments of denaturalization, and why these moments of recognition so rarely translate into sustained practice.\n\nI am also interested in the question of queer "unspeakability" in the Chinese language, particularly the possibilities and social implications of gender-neutral pronouns and gender-inclusive linguistic practices.\n\nBeyond academic research, I am actively engaged in Chinese queer communities and am exploring modes of public sociology, seeking to bridge academic inquiry with broader public conversations.`,
+cn: `我是中国社会科学院大学社会学本科生，关注当代中国语境下的性与性别与酷儿生活。我\n\n我目前的研究关注中国数字空间中性别戏仿作为反向话语实践的政治效力与结构性限度，探讨父权制日常话语的符号性逆转如何制造去自然化的认知瞬间，以及这些认知断裂为何难以转化为持续的实践。同时，我也关注中文语境中酷儿的“失语”问题，尤其是性别中立代词与性别包容性语言的可能性及其社会意义。\n\n学术研究之外，我也是中文酷儿社群的积极参与者，并在持续探索公共社会学的表达路径，尝试在学术研究与公共讨论之间建立连接。`
+},
+
+  
 
   research: {
     intro: {
@@ -32,14 +33,14 @@ const data = {
     items: [
       {
         id: 1,
-        title: "Gendered Power Relations in Linguistic Practice: An Analysis of “Gender Reversal” Short Videos",
-        titleCN: "语言实践中的性别权力关系 ——基于“性别倒转”类短视频的考察",
-        status: "First Author | Project Thesis (2025,Excellent)",
-        statusCN: "第一作者｜项目论文（2025,推荐优秀）",
-        abstract: "This research examines the emergence of “gender reversal” short videos on social media, combining critical discourse analysis with semi-structure interviews, drawing on Bourdieu’s practice theory and framework of symbolic violence, Foucault’s discourse–power perspective, and Butler’s theory of gender performativity. It explores how audiences engage in the negotiation of gender discourse through viewing, interpreting, and reproducing “gender reversal” content. The findings show that “gender reversal” symbolically inverts social norms to render the latent and often hidden forms of everyday gendered violence visible. By producing “counter discourses,” these videos provide female audiences with emotional resonance and a sense of legitimacy for action, encouraging them to express dissatisfaction, voice objections, and challenge existing gender norms in daily interactions. However, the political efficacy of such narratives is constrained by the intrinsic tension of ironic structures and the limitations of the binary gender framework, restricting their capacity to fundamentally subvert gender hierarchies. The research argues that “gender reversal” functions not only as a strategic practice resisting patriarchal discourse but also as a critical lens through which the complexities of gendered power relations in the digital era can be examined. It offers an important window into the interplay among media, affective politics, and social structures, revealing how symbols, language, and performance mediate the negotiation of identity and power.",
-        abstractCN: "本研究以社交媒体上兴起的“性别倒转”类短视频为对象，结合批判性话语分析与半结构式访谈，借助布迪厄的实践理论与符号暴力框架、福柯的话语—权力视角以及巴特勒的性别操演理论，探讨受众如何通过观看、理解与再生产“性别倒转”内容参与性别话语的协商。研究发现，“性别倒转”通过象征性逆转，将日常生活中潜在而隐蔽的性别暴力直观呈现出来，同时以“反向话语” 的方式为女性受众提供情感认同与行动正当性，使她们在日常互动中更敢于表达不满、提出异议并挑战既有性别规范。然而，这类叙事的政治效力仍受到反讽结构内在张力的限制，同时受制于性别二元框架的固有困境，使得其在颠覆性别秩序方面存在局限性。本文认为，“性别倒转”不仅是抵抗父权话语的策略性实践，它通过符号、语言与表演的微观操作揭示了数字时代性别权力关系的复杂性，也为理解媒体、情感政治与社会结构之间的交织提供了重要窗口。",
-        keywords: "gender language; gender discourse; gender reversal; discursive power",
-        keywordsCN: "性别语言；性别话语；性别倒转；话语权力"
+        title: "Efficacy and Limitations of Gender Parody in Chinese Digital Space — A Case Study of the 'Mu Dao Hua' Symbolic Practice System",
+        titleCN: "寄生的锋刃：中国数字空间“性别戏仿”的力量与限度——以“母道话”符号实践体系为例",
+        status: "Sole Author | School-level Research Project (2025, Excellent) — Revised and Expanded",
+        statusCN: "独立作者｜校级研究项目（2025，推荐优秀）——已修订扩展",
+        abstract: "Originally submitted as 'Gendered Power Relations in Linguistic Practice: An Analysis of 'Gender Reversal' Short Videos' (School-level Research Project, 2025, Excellent). Currently revised and expanded under the new title. This study examines the 'Mu Dao Hua' symbolic practice system as a case of gender parody short videos that emerged on Chinese social media platforms in 2024. Drawing on semiotic textual analysis and semi-structured in-depth interviews, it investigates the political efficacy and structural limits of this counter-discursive practice. Textual analysis reveals that 'Mu Dao Hua' operates through three semiotic layers—literal substitution, mythological exposure, and new myth production—systematically exposing naturalized gender coding as arbitrary construction through precise mirroring of patriarchal everyday discourse. This mechanism produces a two-tiered denaturalization effect at the symbolic level: the first tier consists of cognitive estrangement generated by the reversal itself; the second, more politically significant tier emerges when the fact that the original expression was never felt to be strange suddenly becomes visible. Audience analysis further demonstrates that this denaturalization effect is genuinely activated in viewers' cognition, yet the translation from cognitive rupture to everyday practice is conditioned by heterogeneous field-specific constraints, including workplace power structures, peer group discursive inertia, and institutional gender bias. The study argues that judging gender parody by the standard of behavioral change constitutes a misplaced criterion. Its genuine political efficacy lies in producing brief, repeatable moments of denaturalization that render previously unnameable gender domination visible, nameable, and open to contestation. Its parasitic dependency on patriarchal grammar is precisely what makes it sharp—and precisely what keeps it bound.",
+        abstractCN: "原项目题目为《语言实践中的性别权力关系——基于“性别倒转”类短视频的考察》，现修订扩展为《寄生的锋刃》，投稿中。本研究以2024年社交媒体平台兴起的“性别戏仿”类短视频为考察对象，以“母道话”符号实践体系为典型案例，结合符号学文本分析与半结构式深度访谈，追问这一反向话语实践的政治效力及其结构性限度。文本分析发现，“母道话”通过对父权制日常话语的精准镜像映射，在字面置换、神话暴露与新神话生产三个层次上系统性地使被自然化的性别编码暴露为人为建构，这一机制在符号层面制造了具有双层结构的“去自然化”效果：第一层是反转带来的认知违和，第二层是对“原词从未令人违和”这一事实的突然意识。受众分析进一步表明，这种去自然化效果在受众认知中得到了真实的激活，但从认知断裂到日常实践的转化被职场权力结构、社交群体惯性与制度性别偏好等场域条件所阻截。研究认为，以“能否改变行为”评价性别戏仿是错位的标准；其政治效力在于制造短暂、可重复的去自然化瞬间，使原本无法被命名的性别支配变得可见、可命名、可讨论。寄生使它精准，也使它无法脱身，"
+        keywords: "Gender parody; Reverse discourse; Feminist micro-practices",
+        keywordsCN: "性别戏仿；反向话语；女性主义微观实践"
       },
       {
         id: 2,
@@ -120,34 +121,8 @@ const data = {
       link: "https://mp.weixin.qq.com/s/lI2_d93PfVSaIfRtcGybAw"
     }
   ],
+ 
 
- 
-  blog: {
-    thinking: [
-      {
-        id: 1,
-        title: '"ta" as a Gendered / Gender-Neutral Signifier',
-        titleCN: "关于'ta'作为性别中立代词的思考",
-        en: `Chinese is a language where gender is not audible in speech but marked in writing. "Ta" has been used in matchmaking ads ("come find your ta") and by queer communities as a gender-neutral marker. Yet these uses point to very different claims on the same character. Unlike English "they" or Swedish "hen," Chinese does not offer a widely stabilized gender-neutral pronoun. I am interested in how people use it, what meanings they attach to it, and whether it can carry the kinds of political and affective weight we ask it to bear.`,
-        cn: `中文是一种在口语中无法直接听出性别，但在书写中明确标记性别的语言。"ta"既被用在相亲广告中（"来找你的那个ta"），也被酷儿社群用作性别中立的表达，但这两种用法其实指向的是对同一个字的不同主张。与英语中的"they"或瑞典语中的"hen"不同，中文并没有一个被广泛稳定接受的性别中立代词。我想理解人们如何使用它、它被赋予了什么意义，以及它是否能够承载我们期待它所承载的政治与情感重量。`
-      },
-      {
-        id: 2,
-        title: "Muscles as Gender Signifiers",
-        titleCN: "作为性别符号的肌肉身体",
-        en: `Muscularity in men is often read as masculinity—it requires little explanation. But when women engage in strength training and develop visible muscle, what is it read as? Threatening? Cool? Transgressive? Or another form of disciplined, regulated body? I am still unsure whether this belongs to the sociology of the body, sports sociology, or perhaps both.`,
-        cn: `男性展示肌肉通常会被直接读作"男性气质"，几乎不需要额外解释。但当女性进行力量训练并展示肌肉时，这种身体会被如何理解？是威胁？是"很酷"？是越轨？还是另一种被规训的身体？我还没有完全确定，这个问题究竟属于身体社会学、运动社会学，还是两者的交叉。`
-      },
-      {
-        id: 3,
-        title: "Women Smoking and Gendered Norms",
-        titleCN: "女性吸烟与性别规范",
-        en: `Why is women's smoking still widely perceived as deviant? What kinds of gendered norms and expectations are at work in producing this perception?`,
-        cn: `为什么女性吸烟仍然常常被视为一种"越轨行为"？这种观念背后，运作的是怎样的性别规范与社会期待？`
-      }
-    ]
-  },
- 
   cv: {
     en: [
       { school: "University of Chinese Academy of Social Sciences", major: "BA Sociology", period: "2022 ~ 2027" },
@@ -436,8 +411,8 @@ export default function App() {
               <div style={{ maxWidth: 850 }}>
                 <p style={{ fontSize: "1.1rem", color: theme.colorSub, lineHeight: 1.85, marginBottom: "3rem", whiteSpace: "pre-wrap", textAlign: "justify" }}>
                   {lang === "cn"
-                    ? "欢迎在北京约一杯咖啡面谈，或通过邮件联系我。\n我非常欢迎与大家交流关于社会学、性与性别、酷儿生活、公共社会学或研究生申请等相关话题，也欢迎任何潜在的合作机会，或者就你正在思考的问题展开对话。"
-                    : "I am open to coffee chats in Beijing, or feel free to reach out via email.\nI welcome conversations on sociology, gender and sexuality, queer life, public sociology, graduate study applications, or any ideas you are currently thinking through. I am also open to potential collaborations, or simply engaging in dialogue around questions that matter to you."}
+                    ? "欢迎在北京约一杯咖啡面谈，或通过邮件联系我。\n我非常欢迎与大家交流关于社会学、性与性别、酷儿生活、公共社会学等相关话题，也欢迎任何潜在的合作机会，或者就你正在思考的问题展开对话。"
+                    : "I am open to coffee chats in Beijing, or feel free to reach out via email.\nI welcome conversations on sociology, gender and sexuality, queer life, public sociology, or any ideas you are currently thinking through. I am also open to potential collaborations, or simply engaging in dialogue around questions that matter to you."}
                 </p>
                 <a href={`mailto:${data.email}`} style={{ textDecoration: "none", color: "#000", borderBottom: "1px solid #000", paddingBottom: 2, fontSize: "1.1rem", fontFamily: theme.fontSerif }}>{data.email} ↗</a>
               </div>
